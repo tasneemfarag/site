@@ -8976,4 +8976,66 @@ body {
   .plain-quran .content-end {
     display: none;
   }
+}  
+/*this is css for the modale popup*/ 
+
+.overlay {
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
+
+.modal {
+  display: none;
+  background-color: #fff;
+  color: #484848;
+  padding: 50px;
+  max-width: 650px;
+  top: 40px;
+  left: 50%;
+  margin-bottom: 40px;
+}
+
+/* line 14, ../../source/sass/partials/_modal.scss */
+.modal-body {
+  max-height: 540px;
+  overflow-y: auto;
+}
+
+/* line 19, ../../source/sass/partials/_modal.scss */
+.modal-overlay {
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 28, ../../source/sass/partials/_modal.scss */
+.modal-overlay.is-opened {
+  overflow-y: auto;
+}
+
+/* line 32, ../../source/sass/partials/_modal.scss */
+.modal-close {
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 40, ../../source/sass/partials/_modal.scss */
+  .modal {
+    top: 10px;
+    margin-bottom: 10px;
+    left: 10px;
+    right: 10px;
+    margin-left: 0;
+  }
+}
+
