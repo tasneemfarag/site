@@ -132,7 +132,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" data-transition="flip">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="setting-tab-container">
@@ -224,12 +224,7 @@
 <script>
     $(document).ready(function() { 
         console.log("hghkg");
-        $( ".modal-dialog" ).dialog({
-  title: "Global Quran", 
-  width: 1000, 
-  modal: true,
-  opacity: 0.1
-});
+        $( ".modal-dialog" ).dialog();
  
         $("div.setting-tab-menu>div.list-group>a").click(function(e) {
             e.preventDefault();
