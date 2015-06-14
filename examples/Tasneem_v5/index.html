@@ -1,255 +1,826 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Test GlobalQuran.com Layout</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link rel="stylesheet" type="text/css" href="css/gq.css"/> 
-    <link rel="stylesheet" type="text/css" href="ext/bootstrap/css/bootstrap.css"/> 
-    <link rel="stylesheet" type="text/css" href="ext/font-awesome_3.2.1/css/font-awesome-ie7.css"/>
-    <link rel="stylesheet" type="text/css" href="ext/font-awesome_3.2.1/css/font-awesome.css"/>
-    
-    <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css"/> 
-
-
-
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="../../../upload/css/font-awesome-ie7.min.css">
-    <![endif]-->
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="/favicon.ico">
-    <!--    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">-->
-    <!--    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">-->
-    <!--    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">-->
-    <!--    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">-->
-    
-<body class="plain plain-quran">
-
-<header class="fixed mini withPlayer">
-    <div class="row">
-        <div class="col-sm-4 hidden-xs">
-            <a href="/" title="Global Quran" class="logo">GlobalQuran.com</a>
-        </div>
-        <div class="col-sm-6 col-xs-8">
-            <h1 class="title"><a href="#" class="no-underline">AL-FATIHAH <small>THE OPENING</small></a></h1>
-        </div>
-        <div class="col-sm-1 col-xs-2 hidden-print icons">
-            <a href="#" class="no-underline gear" data-toggle="modal" data-target="#myModal"><i class="icon-gear icon-3x"></i></a>
-        </div>
-        <div class="col-sm-1 col-xs-1 hidden-print icons">
-            <a href="#" class="no-underline"><i class="icon-play icon-3x"></i></a>
-        </div>
-    </div>
-    <div class="row player-plain hidden-xs">
-        <hr class="minor" style="margin-top: 0px;"/>
-        <div class="col-sm-2 col-sm-offset-2 col-md-offset-3 text-center">
-            <a href="#"><i class="icon-backward"></i></a>
-            <a href="#"><i class="icon-pause"></i></a>
-            <a href="#"><i class="icon-forward"></i></a>
-        </div>
-        <div class="col-sm-3">
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                    <span class="sr-only">60% Complete (warning)</span> 
+    <head>
+        <meta charset="utf-8">
+        <title>Test GlobalQuran.com Layout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" type="text/css" href="ext/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="ext/font-awesome_3.2.1/css/font-awesome-ie7.css"/>
+        <link rel="stylesheet" type="text/css" href="ext/font-awesome_3.2.1/css/font-awesome.css"/>
+        <link rel="stylesheet" type="text/css" href="css/gq.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="ext/bootstrap-resp/css/bootstrap-responsive.css"/>
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="../../../upload/css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!--    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">-->
+        <!--    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">-->
+        <!--    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">-->
+        <!--    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">-->
+    </head>
+    <body class="all plain plain-quran" style="background-color: #EDEDED;">
+        <header class="fixed mini withPlayer" style="background-color: #EDEDED;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 hidden-xs">
+                        <a href="/" title="Global Quran" class="logo">GlobalQuran.com</a>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                        <h1 class="title"><a href="#" class="no-underline">AL-FATIHAH <small>THE OPENING</small></a></h1>
+                    </div>
+                    <div class="col-sm-1 col-xs-2 hidden-print icons">
+                        <a href="#" class="no-underline gear" data-toggle="modal" data-target="#myModal"><i class="icon-gear icon-3x"></i></a>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 hidden-print icons">
+                        <a href="#" class="no-underline"><i class="icon-play icon-3x"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-3">
-            <span class="duration">1:33 / 2:40</span>
-            <a href="#" class="text-muted"><i class="icon-gear"></i></a>
-        </div>
-        <div class="col-sm-1">
-            <button type="button" class="close" aria-hidden="true">&times;</button>
-        </div>
-    </div>
-    <hr style="margin-top: 0px;"/>
-</header>
-
-<div class="row quran-content">
-    <div class="col-sm-12 ayahs">
-        <article>
-            <section class="ayah-group">
-                <a href="#/quran-simple+en.sahih/1:1" class="number" data-verse="1"><i class="icon-ayah-bracket-left"></i><span>1</span><i class="icon-ayah-bracket-right"></i></a>
-                <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">﻿بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
-                    									</p>
-                <hr class="minor"/>
-                <p class="ayah  ltr" dir="ltr">In the name of Allah, the Entirely Merciful, the Especially Merciful.
-                    <span class="by">Sahih International</a></span>
-                <hr/>
-            </section>
-            <section class="ayah-group active">
-                <a href="#/quran-simple+en.sahih/1:2" class="number" data-verse="2"><i class="icon-ayah-bracket-left"></i><span>2</span><i class="icon-ayah-bracket-right"></i></a>
-                <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ 																		</p>
-                <hr class="minor"/>
-                <p class="ayah  ltr" dir="ltr">[All] praise is [due] to Allah, Lord of the worlds -
-                    <span class="by">Sahih International</a></span>
-                <hr/></p>
-            </section>
-            <section class="ayah-group">
-                <a href="#/quran-simple+en.sahih/1:1" class="number" data-verse="1"><i class="icon-ayah-bracket-left"></i><span>15</span><i class="icon-ayah-bracket-right"></i></a>
-                <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">﻿بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
-                    								</p>
-                <hr class="minor"/>
-                <p class="ayah  ltr" dir="ltr">In the name of Allah, the Entirely Merciful, the Especially Merciful.
-                    <span class="by">Sahih International</a></span>
-                <hr/>
-            </section>
-            <section class="ayah-group">
-                <a href="#/quran-simple+en.sahih/1:2" class="number" data-verse="2"><i class="icon-ayah-bracket-left"></i><span>285</span><i class="icon-ayah-bracket-right"></i></a>
-                <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ 																	</p>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ<span class="sign">&nbsp;ۖ</span> كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا<span class="sign">&nbsp;ۙ</span> قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ<span class="sign">&nbsp;ۖ</span> وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا<span class="sign">&nbsp;ۖ</span> وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ<span class="sign">&nbsp;ۖ</span> وَهُمْ فِيهَا خَـٰلِدُونَ</p>
-                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'me_quran';">وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ<span class="sign">&nbsp;ۖ</span> كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا<span class="sign">&nbsp;ۙ</span> قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ<span class="sign">&nbsp;ۖ</span> وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا<span class="sign">&nbsp;ۖ</span> وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ<span class="sign">&nbsp;ۖ</span> وَهُمْ فِيهَا خَـٰلِدُونَ</p>
-                <hr class="minor"/>
-                <p class="ayah  ltr" dir="ltr">[All] praise is [due] to Allah, Lord of the worlds -
-                    <span class="by">Sahih International</a></span>									</p>
-            </section>
-            <div class="content-end"><span>Surah End</span></div>
-            <div class="loading">
-                <i class="icon-spinner icon-spin icon-3x"></i>
+            <hr class="minor" style="margin-top: 0px;"/
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="col-md-4 col-xs-4">
+                            <a class="btn" href="#" role="button">Surah</a>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <a class="btn" href="#" role="button">Juz'a</a>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <a class="btn" href="#" role="button">Page</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="col-md-3 col-xs-12">
+                            <div class="col-md-1 col-xs-1">
+                                <a href="#"><i class="icon-backward" ></i></a>
+                            </div>
+                            <div class="col-md-1 col-xs-1">
+                                <a href="#"><i class="icon-pause" ></i></a>
+                            </div>
+                            <div class="col-md-1 col-xs-1">
+                                <a href="#"><i class="icon-forward"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-xs-12">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <div class="col-md-5"><span class="duration">1:33 / 2:40</span></div>
+                            
+                            <div class="col-md-5"><a href="#" class="text-muted"><i class="icon-gear"></i></a></div>
+                            <div class="col-md-2">
+                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+          <hr style="margin-top: 0px;"/>
+        </header> 
 
-        </article>
-        <footer>
-            <hr>
-            <p>&copy; <a href="http://GlobalQuran.com">GlobalQuran.com</a> 2014</p>
-        </footer>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <article class="text-center">
+                <div class="middle"> 
+                   <div class="row"> 
+                     <div class="col-md-2">
+                    <a href="#aya=1_1" onclick="gotoSura(1); return false;" id="sura_1" class="active">
+                        <button type="button" class="btn btn-default"><span class="num">1</span>
+                                Al-Faatiha
+                        </button>
+                    </a>  
+                </div> 
+                     <div class="col-md-2">
+                    <a href="#aya=2_1" onclick="gotoSura(2); return false;" id="sura_2" class="">
+                         <button type="button" class="btn btn-default"><span class="num">2</span>
+                                Al-Baqara
+                        </button>
+                   </a> 
+                </div>  
+      
+                   <div class="col-md-2"> 
+                   <a href="#aya=3_1" onclick="gotoSura(3); return false;" id="sura_3">
+                         <button type="button" class="btn btn-default"><span class="num">3</span>
+                                Aal-Imran
+                        </button>
+                   </a>  
+                </div>
+                  <div class="col-md-2">
+                   <a href="#aya=4_1" onclick="gotoSura(4); return false;" id="sura_4">
+                        <button type="button" class="btn btn-default"><span class="num">4</span>
+                                An-Nisaa
+                        </button>
+                   </a> 
+                </div>
+
+                  <div class="col-md-2">
+                   <a href="#aya=5_1" onclick="gotoSura(5); return false;" id="sura_5">
+                        <button type="button" class="btn btn-default"><span class="num">5</span>
+                                Al-Maaida 
+                        </button>
+                   </a> 
+                </div> 
+
+                 <div class="col-md-2">
+                   <a href="#aya=6_1" onclick="gotoSura(6); return false;" id="sura_6">
+                        <button type="button" class="btn btn-default"><span class="num">6</span>
+                                Al-An'aam
+                        </button>
+                   </a>  
+               </div> 
+            </div>
+                     
+               <div class="row"> 
+                 <div class="col-md-2">    
+                   <a href="#aya=7_1" onclick="gotoSura(7); return false;" id="sura_7">
+                        <button type="button" class="btn btn-default"><span class="num">7</span>
+                                Al-A'raaf
+                        </button>
+                   </a> 
+                 </div>
+
+                   <div class="col-md-2"> 
+                   <a href="#aya=8_1" onclick="gotoSura(8); return false;" id="sura_8">
+                        <button type="button" class="btn btn-default"><span class="num">8</span>
+                                Al-Anfaal
+                        </button> 
+                   </a> 
+                  </div>
+
+                  <div class="col-md-2">
+                   <a href="#aya=9_1" onclick="gotoSura(9); return false;" id="sura_9">
+                        <button type="button" class="btn btn-default"><span class="num">9</span>
+                                At-Tawba
+                        </button>
+                  </a>  
+                 </div>
+                  <a href="#aya=10_1" onclick="gotoSura(10); return false;" id="sura_10">
+                    <span class="num">10</span>
+                    Yunus
+                   </a> 
+                   <a href="#aya=11_1" onclick="gotoSura(11); return false;" id="sura_11">
+                    <span class="num">11</span>
+                    Hud
+                   </a> 
+                   <a href="#aya=12_1" onclick="gotoSura(12); return false;" id="sura_12">
+                    <span class="num">12</span>
+                    Yusuf
+                   </a> 
+                   <a href="#aya=13_1" onclick="gotoSura(13); return false;" id="sura_13">
+                    <span class="num">13</span>
+                    Ar-Ra'd
+                   </a> 
+                   <a href="#aya=14_1" onclick="gotoSura(14); return false;" id="sura_14">
+                    <span class="num">14</span>
+                    Ibrahim
+                   </a> 
+                   <a href="#aya=15_1" onclick="gotoSura(15); return false;" id="sura_15">
+                    <span class="num">15</span>
+                    Al-Hijr
+                   </a> 
+                   <a href="#aya=16_1" onclick="gotoSura(16); return false;" id="sura_16">
+                    <span class="num">16</span>
+                    An-Nahl
+                   </a> 
+                   <a href="#aya=17_1" onclick="gotoSura(17); return false;" id="sura_17">
+                    <span class="num">17</span>
+                    Al-Israa
+                   </a> 
+                   <a href="#aya=18_1" onclick="gotoSura(18); return false;" id="sura_18">
+                    <span class="num">18</span>
+                    Al-Kahf
+                   </a> 
+                   <a href="#aya=19_1" onclick="gotoSura(19); return false;" id="sura_19">
+                    <span class="num">19</span>
+                    Maryam
+                  </a> 
+                  <a href="#aya=20_1" onclick="gotoSura(20); return false;" id="sura_20">
+                    <span class="num">20</span>
+                    Taa-Haa
+                  </a> 
+                  <a href="#aya=21_1" onclick="gotoSura(21); return false;" id="sura_21">
+                    <span class="num">21</span>
+                    Al-Anbiyaa
+                  </a> 
+                  <a href="#aya=22_1" onclick="gotoSura(22); return false;" id="sura_22">
+                    <span class="num">22</span>
+                    Al-Hajj
+                  </a> 
+                  <a href="#aya=23_1" onclick="gotoSura(23); return false;" id="sura_23">
+                    <span class="num">23</span>
+                    Al-Muminoon
+                  </a> 
+                  <a href="#aya=24_1" onclick="gotoSura(24); return false;" id="sura_24">
+                    <span class="num">24</span>
+                    An-Noor
+                   </a> 
+                   <a href="#aya=25_1" onclick="gotoSura(25); return false;" id="sura_25">
+                    <span class="num">25</span>
+                    Al-Furqaan
+                  </a> 
+                  <a href="#aya=26_1" onclick="gotoSura(26); return false;" id="sura_26">
+                    <span class="num">26</span>
+                    Ash-Shu'araa
+                   </a> 
+                   <a href="#aya=27_1" onclick="gotoSura(27); return false;" id="sura_27">
+                    <span class="num">27</span>
+                    An-Naml
+                   </a> 
+                   <a href="#aya=28_1" onclick="gotoSura(28); return false;" id="sura_28">
+                    <span class="num">28</span>
+                    Al-Qasas
+                   </a> 
+                   <a href="#aya=29_1" onclick="gotoSura(29); return false;" id="sura_29">
+                    <span class="num">29</span>
+                    Al-Ankaboot
+                   </a> 
+                   <a href="#aya=30_1" onclick="gotoSura(30); return false;" id="sura_30">
+                    <span class="num">30</span>
+                    Ar-Room
+                  </a> 
+                  <a href="#aya=31_1" onclick="gotoSura(31); return false;" id="sura_31">
+                    <span class="num">31</span>
+                    Luqman
+                  </a> 
+                  <a href="#aya=32_1" onclick="gotoSura(32); return false;" id="sura_32">
+                    <span class="num">32</span>
+                    As-Sajda
+                  </a> 
+                  <a href="#aya=33_1" onclick="gotoSura(33); return false;" id="sura_33">
+                    <span class="num">33</span>
+                    Al-Ahzaab
+                   </a> 
+                   <a href="#aya=34_1" onclick="gotoSura(34); return false;" id="sura_34">
+                    <span class="num">34</span>
+                    Saba
+                   </a> 
+                   <a href="#aya=35_1" onclick="gotoSura(35); return false;" id="sura_35">
+                    <span class="num">35</span>
+                    Faatir
+                  </a> 
+                  <a href="#aya=36_1" onclick="gotoSura(36); return false;" id="sura_36">
+                    <span class="num">36</span>
+                    Yaseen
+                  </a> 
+                  <a href="#aya=37_1" onclick="gotoSura(37); return false;" id="sura_37">
+                    <span class="num">37</span>
+                    As-Saaffaat
+                  </a> 
+                  <a href="#aya=38_1" onclick="gotoSura(38); return false;" id="sura_38">
+                    <span class="num">38</span>
+                    Saad
+                  </a> 
+                  <a href="#aya=39_1" onclick="gotoSura(39); return false;" id="sura_39">
+                    <span class="num">39</span>
+                    Az-Zumar
+                  </a> 
+                  <a href="#aya=40_1" onclick="gotoSura(40); return false;" id="sura_40">
+                    <span class="num">40</span>
+                    Ghafir
+                  </a> 
+                  <a href="#aya=41_1" onclick="gotoSura(41); return false;" id="sura_41">
+                    <span class="num">41</span>
+                    Fussilat
+                  </a> 
+                  <a href="#aya=42_1" onclick="gotoSura(42); return false;" id="sura_42">
+                    <span class="num">42</span>
+                    Ash-Shura
+                 </a> 
+                 <a href="#aya=43_1" onclick="gotoSura(43); return false;" id="sura_43">
+                    <span class="num">43</span>
+                    Az-Zukhruf
+                 </a> 
+                 <a href="#aya=44_1" onclick="gotoSura(44); return false;" id="sura_44">
+                    <span class="num">44</span>
+                    Ad-Dukhaan
+                 </a> 
+                 <a href="#aya=45_1" onclick="gotoSura(45); return false;" id="sura_45">
+                    <span class="num">45</span>
+                    Al-Jaathiya
+                 </a> 
+                 <a href="#aya=46_1" onclick="gotoSura(46); return false;" id="sura_46">
+                    <span class="num">46</span>
+                    Al-Ahqaf
+                 </a> 
+                 <a href="#aya=47_1" onclick="gotoSura(47); return false;" id="sura_47">
+                    <span class="num">47</span>
+                    Muhammad
+                 </a> 
+                 <a href="#aya=48_1" onclick="gotoSura(48); return false;" id="sura_48">
+                    <span class="num">48</span>
+                    Al-Fath
+                 </a> 
+                 <a href="#aya=49_1" onclick="gotoSura(49); return false;" id="sura_49">
+                    <span class="num">49</span>
+                    Al-Hujuraat
+                 </a> 
+                 <a href="#aya=50_1" onclick="gotoSura(50); return false;" id="sura_50">
+                    <span class="num">50</span>
+                    Qaaf
+                 </a> 
+                 <a href="#aya=51_1" onclick="gotoSura(51); return false;" id="sura_51">
+                    <span class="num">51</span>
+                    Adh-Dhaariyat
+                 </a> 
+                 <a href="#aya=52_1" onclick="gotoSura(52); return false;" id="sura_52">
+                    <span class="num">52</span>
+                    At-Tur
+                 </a> 
+                 <a href="#aya=53_1" onclick="gotoSura(53); return false;" id="sura_53">
+                    <span class="num">53</span>
+                    An-Najm
+                 </a> 
+                 <a href="#aya=54_1" onclick="gotoSura(54); return false;" id="sura_54">
+                    <span class="num">54</span>
+                    Al-Qamar
+                 </a> 
+                 <a href="#aya=55_1" onclick="gotoSura(55); return false;" id="sura_55">
+                    <span class="num">55</span>
+                    Ar-Rahmaan
+                 </a> 
+                 <a href="#aya=56_1" onclick="gotoSura(56); return false;" id="sura_56">
+                    <span class="num">56</span>
+                    Al-Waaqia
+                 </a> 
+                 <a href="#aya=57_1" onclick="gotoSura(57); return false;" id="sura_57">
+                    <span class="num">57</span>
+                    Al-Hadid
+                 </a> 
+                 <a href="#aya=58_1" onclick="gotoSura(58); return false;" id="sura_58">
+                    <span class="num">58</span>
+                    Al-Mujaadila
+                 </a> 
+                 <a href="#aya=59_1" onclick="gotoSura(59); return false;" id="sura_59">
+                    <span class="num">59</span>
+                    Al-Hashr
+                 </a> 
+                 <a href="#aya=60_1" onclick="gotoSura(60); return false;" id="sura_60">
+                    <span class="num">60</span>
+                    Al-Mumtahana
+                 </a> 
+                 <a href="#aya=61_1" onclick="gotoSura(61); return false;" id="sura_61">
+                    <span class="num">61</span>
+                    As-Saff
+                 </a> 
+                 <a href="#aya=62_1" onclick="gotoSura(62); return false;" id="sura_62">
+                    <span class="num">62</span>
+                    Al-Jumu'a
+                 </a> 
+                 <a href="#aya=63_1" onclick="gotoSura(63); return false;" id="sura_63">
+                    <span class="num">63</span>
+                    Al-Munaafiqoon
+                 </a> 
+                 <a href="#aya=64_1" onclick="gotoSura(64); return false;" id="sura_64">
+                    <span class="num">64</span>
+                    At-Taghaabun
+                 </a> 
+                 <a href="#aya=65_1" onclick="gotoSura(65); return false;" id="sura_65">
+                    <span class="num">65</span>
+                    At-Talaaq
+                 </a> 
+                 <a href="#aya=66_1" onclick="gotoSura(66); return false;" id="sura_66">
+                    <span class="num">66</span>
+                    At-Tahrim
+                 </a> 
+                 <a href="#aya=67_1" onclick="gotoSura(67); return false;" id="sura_67">
+                    <span class="num">67</span>
+                    Al-Mulk
+                 </a> 
+                 <a href="#aya=68_1" onclick="gotoSura(68); return false;" id="sura_68">
+                    <span class="num">68</span>
+                    Al-Qalam
+                 </a> 
+                 <a href="#aya=69_1" onclick="gotoSura(69); return false;" id="sura_69">
+                    <span class="num">69</span>
+                    Al-Haaqqa
+                 </a> 
+                 <a href="#aya=70_1" onclick="gotoSura(70); return false;" id="sura_70">
+                    <span class="num">70</span>
+                    Al-Ma'aarij
+                 </a> 
+                 <a href="#aya=71_1" onclick="gotoSura(71); return false;" id="sura_71">
+                    <span class="num">71</span>
+                    Nooh
+                 </a> 
+                 <a href="#aya=72_1" onclick="gotoSura(72); return false;" id="sura_72">
+                    <span class="num">72</span>
+                    Al-Jinn
+                 </a> 
+                 <a href="#aya=73_1" onclick="gotoSura(73); return false;" id="sura_73">
+                    <span class="num">73</span>
+                    Al-Muzzammil
+                 </a> 
+                 <a href="#aya=74_1" onclick="gotoSura(74); return false;" id="sura_74">
+                    <span class="num">74</span>
+                    Al-Muddaththir
+                 </a> 
+                 <a href="#aya=75_1" onclick="gotoSura(75); return false;" id="sura_75">
+                    <span class="num">75</span>
+                    Al-Qiyaama
+                 </a> 
+                 <a href="#aya=76_1" onclick="gotoSura(76); return false;" id="sura_76">
+                    <span class="num">76</span>
+                    Al-Insaan
+                 </a> 
+                 <a href="#aya=77_1" onclick="gotoSura(77); return false;" id="sura_77">
+                    <span class="num">77</span>
+                    Al-Mursalaat
+                 </a> 
+                 <a href="#aya=78_1" onclick="gotoSura(78); return false;" id="sura_78">
+                    <span class="num">78</span>
+                    An-Naba
+                 </a> 
+                 <a href="#aya=79_1" onclick="gotoSura(79); return false;" id="sura_79">
+                    <span class="num">79</span>
+                    An-Naazi'aat
+                 </a> 
+                 <a href="#aya=80_1" onclick="gotoSura(80); return false;" id="sura_80">
+                    <span class="num">80</span>
+                    Abasa
+                 </a> 
+                 <a href="#aya=81_1" onclick="gotoSura(81); return false;" id="sura_81">
+                    <span class="num">81</span>
+                    At-Takwir
+                 </a> 
+                 <a href="#aya=82_1" onclick="gotoSura(82); return false;" id="sura_82">
+                    <span class="num">82</span>
+                    Al-Infitaar
+                 </a> 
+                 <a href="#aya=83_1" onclick="gotoSura(83); return false;" id="sura_83">
+                    <span class="num">83</span>
+                    Al-Mutaffifin
+                 </a> 
+                 <a href="#aya=84_1" onclick="gotoSura(84); return false;" id="sura_84">
+                    <span class="num">84</span>
+                    Al-Inshiqaaq
+                 </a> 
+                 <a href="#aya=85_1" onclick="gotoSura(85); return false;" id="sura_85">
+                    <span class="num">85</span>
+                    Al-Burooj
+                 </a> 
+                 <a href="#aya=86_1" onclick="gotoSura(86); return false;" id="sura_86">
+                    <span class="num">86</span>
+                    At-Taariq
+                 </a> 
+                 <a href="#aya=87_1" onclick="gotoSura(87); return false;" id="sura_87">
+                    <span class="num">87</span>
+                    Al-A'laa
+                 </a> 
+                 <a href="#aya=88_1" onclick="gotoSura(88); return false;" id="sura_88">
+                    <span class="num">88</span>
+                    Al-Ghaashiya
+                 </a> 
+                 <a href="#aya=89_1" onclick="gotoSura(89); return false;" id="sura_89">
+                    <span class="num">89</span>
+                    Al-Fajr
+                 </a> 
+                 <a href="#aya=90_1" onclick="gotoSura(90); return false;" id="sura_90">
+                    <span class="num">90</span>
+                    Al-Balad
+                 </a> 
+                 <a href="#aya=91_1" onclick="gotoSura(91); return false;" id="sura_91">
+                    <span class="num">91</span>
+                    Ash-Shams
+                 </a> 
+                 <a href="#aya=92_1" onclick="gotoSura(92); return false;" id="sura_92">
+                    <span class="num">92</span>
+                    Al-Lail
+                 </a> 
+                 <a href="#aya=93_1" onclick="gotoSura(93); return false;" id="sura_93">
+                    <span class="num">93</span>
+                    Ad-Dhuhaa
+                 </a> 
+                 <a href="#aya=94_1" onclick="gotoSura(94); return false;" id="sura_94">
+                    <span class="num">94</span>
+                    Ash-Sharh
+                 </a> 
+                 <a href="#aya=95_1" onclick="gotoSura(95); return false;" id="sura_95">
+                    <span class="num">95</span>
+                    At-Tin
+                 </a> 
+                 <a href="#aya=96_1" onclick="gotoSura(96); return false;" id="sura_96">
+                    <span class="num">96</span>
+                    Al-Alaq
+                 </a> 
+                 <a href="#aya=97_1" onclick="gotoSura(97); return false;" id="sura_97">
+                    <span class="num">97</span>
+                    Al-Qadr
+                 </a> 
+                 <a href="#aya=98_1" onclick="gotoSura(98); return false;" id="sura_98">
+                    <span class="num">98</span>
+                    Al-Bayyina
+                 </a> 
+                 <a href="#aya=99_1" onclick="gotoSura(99); return false;" id="sura_99">
+                    <span class="num">99</span>
+                    Az-Zalzala
+                 </a> 
+                 <a href="#aya=100_1" onclick="gotoSura(100); return false;" id="sura_100">
+                    <span class="num">100</span>
+                    Al-Aadiyaat
+                 </a> 
+                 <a href="#aya=101_1" onclick="gotoSura(101); return false;" id="sura_101">
+                    <span class="num">101</span>
+                    Al-Qaari'a
+                 </a> 
+                 <a href="#aya=102_1" onclick="gotoSura(102); return false;" id="sura_102">
+                    <span class="num">102</span>
+                    At-Takaathur
+                 </a> 
+                 <a href="#aya=103_1" onclick="gotoSura(103); return false;" id="sura_103">
+                    <span class="num">103</span>
+                    Al-Asr
+                 </a> 
+                 <a href="#aya=104_1" onclick="gotoSura(104); return false;" id="sura_104">
+                    <span class="num">104</span>
+                    Al-Humaza
+                 </a> 
+                 <a href="#aya=105_1" onclick="gotoSura(105); return false;" id="sura_105">
+                    <span class="num">105</span>
+                    Al-Fil
+                 </a> 
+                 <a href="#aya=106_1" onclick="gotoSura(106); return false;" id="sura_106">
+                    <span class="num">106</span>
+                    Quraish
+                 </a> 
+                 <a href="#aya=107_1" onclick="gotoSura(107); return false;" id="sura_107">
+                    <span class="num">107</span>
+                    Al-Maa'un
+                 </a> 
+                 <a href="#aya=108_1" onclick="gotoSura(108); return false;" id="sura_108">
+                    <span class="num">108</span>
+                    Al-Kawthar
+                 </a> 
+                 <a href="#aya=109_1" onclick="gotoSura(109); return false;" id="sura_109">
+                    <span class="num">109</span>
+                    Al-Kaafiroon
+                 </a> 
+                 <a href="#aya=110_1" onclick="gotoSura(110); return false;" id="sura_110">
+                    <span class="num">110</span>
+                    An-Nasr
+                 </a> 
+                 <a href="#aya=111_1" onclick="gotoSura(111); return false;" id="sura_111">
+                    <span class="num">111</span>
+                    Al-Masad
+                 </a> 
+                 <a href="#aya=112_1" onclick="gotoSura(112); return false;" id="sura_112">
+                    <span class="num">112</span>
+                    Al-Ikhlaas
+                 </a> 
+                 <a href="#aya=113_1" onclick="gotoSura(113); return false;" id="sura_113">
+                    <span class="num">113</span>
+                    Al-Falaq
+                 </a> 
+                 <a href="#aya=114_1" onclick="gotoSura(114); return false;" id="sura_114"><span class="num">114</span>
+                    An-Naas
+                 </a> 
+                 <div style="clear:both"></div></div>
+            </article>
+        </div>
     </div>
 </div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" data-transition="flip">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="setting-tab-container">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 setting-tab-menu">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item active text-center">
-                                <i class="icon-book icon-3x"></i><br/>Quran
-                            </a>
-                            <a href="#" class="list-group-item text-center">
-                                <i class="icon-tumblr icon-3x"></i><br/>Translation
-                            </a>
-                            <a href="#" class="list-group-item text-center">
-                                <i class="icon-music icon-3x"></i><br/>Audio
-                            </a>
-                            <a href="#" class="list-group-item text-center">
-                                <i class="icon-desktop icon-3x"></i><br/>Display
-                            </a>
-                            <a href="#" class="list-group-item text-center">
-                                <i class="glyphicon glyphicon-credit-card"></i><br/>--
-                            </a>
+        <!--<header class="fixed mini withPlayer" style="background-color: #EDEDED;">
+            <div class="row">
+                <div class="col-sm-4 hidden-xs">
+                    <a href="/" title="Global Quran" class="logo">GlobalQuran.com</a>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <h1 class="title"><a href="#" class="no-underline">AL-FATIHAH <small>THE OPENING</small></a></h1>
+                </div>
+                <div class="col-sm-1 col-xs-2 hidden-print icons">
+                    <a href="#" class="no-underline gear" data-toggle="modal" data-target="#myModal"><i class="icon-gear icon-3x"></i></a>
+                </div>
+                <div class="col-sm-1 col-xs-1 hidden-print icons">
+                    <a href="#" class="no-underline"><i class="icon-play icon-3x"></i></a>
+                </div>
+            </div>
+            
+            <hr class="minor" style="margin-top: 0px;"/>
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        <div class="row player-plain hidden-xs">
+                            <div class="  col-lg-2 text-center">
+                                <a href="#"><i class="icon-backward" style="display: inline-block;"></i></a>
+                                <a href="#"><i class="icon-pause" style="display: inline-block;"></i></a>
+                                <a href="#"><i class="icon-forward" style="display: inline-block;"></i></a>
+                            </div>
+                            <div class=" col-md-2">
+                                <div class="progress" style="display: inline-block;">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60% , display: inline-block;">
+                                        <span class="sr-only">60% Complete (warning)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-2">
+                                <span class="duration" style="display: inline-block;">1:33 / 2:40</span>
+                                <a href="#" class="text-muted"><i class="icon-gear" style="display: inline-block;"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 setting-tab">
-                        <!-- flight section -->
-                        <div class="setting-tab-content active">
-                            <h3>QURAN TEXT</h3>
+                    
+                    
+                    <div id="tabs" class="col-md-5">
+                        <a class="btn btn-default col-md-1 col-md-offset-2 col-xs-2" href="#" role="button">Surah</a>
+                        <a class="btn btn-default col-md-1 col-md-offset-2 col-xs-2" href="#" role="button">Juz'a</a>
+                        <a class="btn btn-default col-md-1 col-md-offset-2 col-xs-2" href="#" role="button">Page</a>
+                    </div>
+                    <div class="col-md-2 col-sm-4 pull-right">
+                        <button type="button" class="close" aria-hidden="true" style="display: inline-block;">&times;</button>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <hr style="margin-top: 0px;"/>
+        </header>-
+        <div class="row quran-content">
+            <div class="col-sm-12 ayahs">
+                <article>
+                    <div class="middle"><a href="#aya=1_1" onclick="gotoSura(1); return false;" id="sura_1" class="active"><span class="num"></span>Al-Faatiha</a> <a href="#aya=2_1" onclick="gotoSura(2); return false;" id="sura_2"><span class="num"></span>Al-Baqara</a> <a href="#aya=3_1" onclick="gotoSura(3); return false;" id="sura_3"><span class="num"></span>Aal-Imran</a> <a href="#aya=4_1" onclick="gotoSura(4); return false;" id="sura_4"><span class="num"></span>An-Nisaa</a> <a href="#aya=5_1" onclick="gotoSura(5); return false;" id="sura_5"><span class="num"></span>Al-Maaida</a> <a href="#aya=6_1" onclick="gotoSura(6); return false;" id="sura_6"><span class="num"></span>Al-An'aam</a> <a href="#aya=7_1" onclick="gotoSura(7); return false;" id="sura_7"><span class="num"></span>Al-A'raaf</a> <a href="#aya=8_1" onclick="gotoSura(8); return false;" id="sura_8"><span class="num"></span>Al-Anfaal</a> <a href="#aya=9_1" onclick="gotoSura(9); return false;" id="sura_9"><span class="num"></span>At-Tawba</a> <a href="#aya=10_1" onclick="gotoSura(10); return false;" id="sura_10"><span class="num"></span>Yunus</a> <a href="#aya=11_1" onclick="gotoSura(11); return false;" id="sura_11"><span class="num"></span>Hud</a> <a href="#aya=12_1" onclick="gotoSura(12); return false;" id="sura_12"><span class="num"></span>Yusuf</a> <a href="#aya=13_1" onclick="gotoSura(13); return false;" id="sura_13"><span class="num"></span>Ar-Ra'd</a> <a href="#aya=14_1" onclick="gotoSura(14); return false;" id="sura_14"><span class="num"></span>Ibrahim</a> <a href="#aya=15_1" onclick="gotoSura(15); return false;" id="sura_15"><span class="num"></span>Al-Hijr</a> <a href="#aya=16_1" onclick="gotoSura(16); return false;" id="sura_16"><span class="num"></span>An-Nahl</a> <a href="#aya=17_1" onclick="gotoSura(17); return false;" id="sura_17"><span class="num"></span>Al-Israa</a> <a href="#aya=18_1" onclick="gotoSura(18); return false;" id="sura_18"><span class="num"></span>Al-Kahf</a> <a href="#aya=19_1" onclick="gotoSura(19); return false;" id="sura_19"><span class="num"></span>Maryam</a> <a href="#aya=20_1" onclick="gotoSura(20); return false;" id="sura_20"><span class="num"></span>Taa-Haa</a> <a href="#aya=21_1" onclick="gotoSura(21); return false;" id="sura_21"><span class="num"></span>Al-Anbiyaa</a> <a href="#aya=22_1" onclick="gotoSura(22); return false;" id="sura_22"><span class="num"></span>Al-Hajj</a> <a href="#aya=23_1" onclick="gotoSura(23); return false;" id="sura_23"><span class="num"></span>Al-Muminoon</a> <a href="#aya=24_1" onclick="gotoSura(24); return false;" id="sura_24"><span class="num"></span>An-Noor</a> <a href="#aya=25_1" onclick="gotoSura(25); return false;" id="sura_25"><span class="num"></span>Al-Furqaan</a> <a href="#aya=26_1" onclick="gotoSura(26); return false;" id="sura_26"><span class="num"></span>Ash-Shu'araa</a> <a href="#aya=27_1" onclick="gotoSura(27); return false;" id="sura_27"><span class="num"></span>An-Naml</a> <a href="#aya=28_1" onclick="gotoSura(28); return false;" id="sura_28"><span class="num"></span>Al-Qasas</a> <a href="#aya=29_1" onclick="gotoSura(29); return false;" id="sura_29"><span class="num"></span>Al-Ankaboot</a> <a href="#aya=30_1" onclick="gotoSura(30); return false;" id="sura_30"><span class="num"></span>Ar-Room</a> <a href="#aya=31_1" onclick="gotoSura(31); return false;" id="sura_31"><span class="num"></span>Luqman</a> <a href="#aya=32_1" onclick="gotoSura(32); return false;" id="sura_32"><span class="num"></span>As-Sajda</a> <a href="#aya=33_1" onclick="gotoSura(33); return false;" id="sura_33"><span class="num"></span>Al-Ahzaab</a> <a href="#aya=34_1" onclick="gotoSura(34); return false;" id="sura_34"><span class="num"></span>Saba</a> <a href="#aya=35_1" onclick="gotoSura(35); return false;" id="sura_35"><span class="num"></span>Faatir</a> <a href="#aya=36_1" onclick="gotoSura(36); return false;" id="sura_36"><span class="num"></span>Yaseen</a> <a href="#aya=37_1" onclick="gotoSura(37); return false;" id="sura_37"><span class="num"></span>As-Saaffaat</a> <a href="#aya=38_1" onclick="gotoSura(38); return false;" id="sura_38"><span class="num"></span>Saad</a> <a href="#aya=39_1" onclick="gotoSura(39); return false;" id="sura_39"><span class="num"></span>Az-Zumar</a> <a href="#aya=40_1" onclick="gotoSura(40); return false;" id="sura_40"><span class="num"></span>Ghafir</a> <a href="#aya=41_1" onclick="gotoSura(41); return false;" id="sura_41"><span class="num"></span>Fussilat</a> <a href="#aya=42_1" onclick="gotoSura(42); return false;" id="sura_42"><span class="num"></span>Ash-Shura</a> <a href="#aya=43_1" onclick="gotoSura(43); return false;" id="sura_43"><span class="num"></span>Az-Zukhruf</a> <a href="#aya=44_1" onclick="gotoSura(44); return false;" id="sura_44"><span class="num"></span>Ad-Dukhaan</a> <a href="#aya=45_1" onclick="gotoSura(45); return false;" id="sura_45"><span class="num"></span>Al-Jaathiya</a> <a href="#aya=46_1" onclick="gotoSura(46); return false;" id="sura_46"><span class="num"></span>Al-Ahqaf</a> <a href="#aya=47_1" onclick="gotoSura(47); return false;" id="sura_47"><span class="num"></span>Muhammad</a> <a href="#aya=48_1" onclick="gotoSura(48); return false;" id="sura_48"><span class="num"></span>Al-Fath</a> <a href="#aya=49_1" onclick="gotoSura(49); return false;" id="sura_49"><span class="num"></span>Al-Hujuraat</a> <a href="#aya=50_1" onclick="gotoSura(50); return false;" id="sura_50"><span class="num"></span>Qaaf</a> <a href="#aya=51_1" onclick="gotoSura(51); return false;" id="sura_51"><span class="num"></span>Adh-Dhaariyat</a> <a href="#aya=52_1" onclick="gotoSura(52); return false;" id="sura_52"><span class="num"></span>At-Tur</a> <a href="#aya=53_1" onclick="gotoSura(53); return false;" id="sura_53"><span class="num"></span>An-Najm</a> <a href="#aya=54_1" onclick="gotoSura(54); return false;" id="sura_54"><span class="num"></span>Al-Qamar</a> <a href="#aya=55_1" onclick="gotoSura(55); return false;" id="sura_55"><span class="num"></span>Ar-Rahmaan</a> <a href="#aya=56_1" onclick="gotoSura(56); return false;" id="sura_56"><span class="num"></span>Al-Waaqia</a> <a href="#aya=57_1" onclick="gotoSura(57); return false;" id="sura_57"><span class="num"></span>Al-Hadid</a> <a href="#aya=58_1" onclick="gotoSura(58); return false;" id="sura_58"><span class="num"></span>Al-Mujaadila</a> <a href="#aya=59_1" onclick="gotoSura(59); return false;" id="sura_59"><span class="num"></span>Al-Hashr</a> <a href="#aya=60_1" onclick="gotoSura(60); return false;" id="sura_60"><span class="num"></span>Al-Mumtahana</a> <a href="#aya=61_1" onclick="gotoSura(61); return false;" id="sura_61"><span class="num"></span>As-Saff</a> <a href="#aya=62_1" onclick="gotoSura(62); return false;" id="sura_62"><span class="num"></span>Al-Jumu'a</a> <a href="#aya=63_1" onclick="gotoSura(63); return false;" id="sura_63"><span class="num"></span>Al-Munaafiqoon</a> <a href="#aya=64_1" onclick="gotoSura(64); return false;" id="sura_64"><span class="num"></span>At-Taghaabun</a> <a href="#aya=65_1" onclick="gotoSura(65); return false;" id="sura_65"><span class="num"></span>At-Talaaq</a> <a href="#aya=66_1" onclick="gotoSura(66); return false;" id="sura_66"><span class="num"></span>At-Tahrim</a> <a href="#aya=67_1" onclick="gotoSura(67); return false;" id="sura_67"><span class="num"></span>Al-Mulk</a> <a href="#aya=68_1" onclick="gotoSura(68); return false;" id="sura_68"><span class="num"></span>Al-Qalam</a> <a href="#aya=69_1" onclick="gotoSura(69); return false;" id="sura_69"><span class="num"></span>Al-Haaqqa</a> <a href="#aya=70_1" onclick="gotoSura(70); return false;" id="sura_70"><span class="num"></span>Al-Ma'aarij</a> <a href="#aya=71_1" onclick="gotoSura(71); return false;" id="sura_71"><span class="num"></span>Nooh</a> <a href="#aya=72_1" onclick="gotoSura(72); return false;" id="sura_72"><span class="num"></span>Al-Jinn</a> <a href="#aya=73_1" onclick="gotoSura(73); return false;" id="sura_73"><span class="num"></span>Al-Muzzammil</a> <a href="#aya=74_1" onclick="gotoSura(74); return false;" id="sura_74"><span class="num"></span>Al-Muddaththir</a> <a href="#aya=75_1" onclick="gotoSura(75); return false;" id="sura_75"><span class="num"></span>Al-Qiyaama</a> <a href="#aya=76_1" onclick="gotoSura(76); return false;" id="sura_76"><span class="num"></span>Al-Insaan</a> <a href="#aya=77_1" onclick="gotoSura(77); return false;" id="sura_77"><span class="num"></span>Al-Mursalaat</a> <a href="#aya=78_1" onclick="gotoSura(78); return false;" id="sura_78"><span class="num"></span>An-Naba</a> <a href="#aya=79_1" onclick="gotoSura(79); return false;" id="sura_79"><span class="num"></span>An-Naazi'aat</a> <a href="#aya=80_1" onclick="gotoSura(80); return false;" id="sura_80"><span class="num"></span>Abasa</a> <a href="#aya=81_1" onclick="gotoSura(81); return false;" id="sura_81"><span class="num"></span>At-Takwir</a> <a href="#aya=82_1" onclick="gotoSura(82); return false;" id="sura_82"><span class="num">82</span>Al-Infitaar</a> <a href="#aya=83_1" onclick="gotoSura(83); return false;" id="sura_83"><span class="num"></span>Al-Mutaffifin</a> <a href="#aya=84_1" onclick="gotoSura(84); return false;" id="sura_84"><span class="num"></span>Al-Inshiqaaq</a> <a href="#aya=85_1" onclick="gotoSura(85); return false;" id="sura_85"><span class="num"></span>Al-Burooj</a> <a href="#aya=86_1" onclick="gotoSura(86); return false;" id="sura_86"><span class="num"></span>At-Taariq</a> <a href="#aya=87_1" onclick="gotoSura(87); return false;" id="sura_87"><span class="num"></span>Al-A'laa</a> <a href="#aya=88_1" onclick="gotoSura(88); return false;" id="sura_88"><span class="num"></span>Al-Ghaashiya</a> <a href="#aya=89_1" onclick="gotoSura(89); return false;" id="sura_89"><span class="num"></span>Al-Fajr</a> <a href="#aya=90_1" onclick="gotoSura(90); return false;" id="sura_90"><span class="num"></span>Al-Balad</a> <a href="#aya=91_1" onclick="gotoSura(91); return false;" id="sura_91"><span class="num"></span>Ash-Shams</a> <a href="#aya=92_1" onclick="gotoSura(92); return false;" id="sura_92"><span class="num"></span>Al-Lail</a> <a href="#aya=93_1" onclick="gotoSura(93); return false;" id="sura_93"><span class="num"></span>Ad-Dhuhaa</a> <a href="#aya=94_1" onclick="gotoSura(94); return false;" id="sura_94"><span class="num"></span>Ash-Sharh</a> <a href="#aya=95_1" onclick="gotoSura(95); return false;" id="sura_95"><span class="num"></span>At-Tin</a> <a href="#aya=96_1" onclick="gotoSura(96); return false;" id="sura_96"><span class="num"></span>Al-Alaq</a> <a href="#aya=97_1" onclick="gotoSura(97); return false;" id="sura_97"><span class="num"></span>Al-Qadr</a> <a href="#aya=98_1" onclick="gotoSura(98); return false;" id="sura_98"><span class="num"></span>Al-Bayyina</a> <a href="#aya=99_1" onclick="gotoSura(99); return false;" id="sura_99"><span class="num"></span>Az-Zalzala</a> <a href="#aya=100_1" onclick="gotoSura(100); return false;" id="sura_100"><span class="num"></span>Al-Aadiyaat</a> <a href="#aya=101_1" onclick="gotoSura(101); return false;" id="sura_101"><span class="num"></span>Al-Qaari'a</a> <a href="#aya=102_1" onclick="gotoSura(102); return false;" id="sura_102"><span class="num"></span>At-Takaathur</a> <a href="#aya=103_1" onclick="gotoSura(103); return false;" id="sura_103"><span class="num"></span>Al-Asr</a> <a href="#aya=104_1" onclick="gotoSura(104); return false;" id="sura_104"><span class="num"></span>Al-Humaza</a> <a href="#aya=105_1" onclick="gotoSura(105); return false;" id="sura_105"><span class="num"></span>Al-Fil</a> <a href="#aya=106_1" onclick="gotoSura(106); return false;" id="sura_106"><span class="num"></span>Quraish</a> <a href="#aya=107_1" onclick="gotoSura(107); return false;" id="sura_107"><span class="num"></span>Al-Maa'un</a> <a href="#aya=108_1" onclick="gotoSura(108); return false;" id="sura_108"><span class="num"></span>Al-Kawthar</a> <a href="#aya=109_1" onclick="gotoSura(109); return false;" id="sura_109"><span class="num"></span>Al-Kaafiroon</a> <a href="#aya=110_1" onclick="gotoSura(110); return false;" id="sura_110"><span class="num"></span>An-Nasr</a> <a href="#aya=111_1" onclick="gotoSura(111); return false;" id="sura_111"><span class="num"></span>Al-Masad</a> <a href="#aya=112_1" onclick="gotoSura(112); return false;" id="sura_112"><span class="num"></span>Al-Ikhlaas</a> <a href="#aya=113_1" onclick="gotoSura(113); return false;" id="sura_113"><span class="num"></span>Al-Falaq</a> <a href="#aya=114_1" onclick="gotoSura(114); return false;" id="sura_114"><span class="num"></span>An-Naas</a> <div style="clear:both"></div></div>
+                    <!-- <section class="ayah-group">
+                        <a href="#/quran-simple+en.sahih/1:1" class="number" data-verse="1"><i class="icon-ayah-bracket-left"></i><span>1</span><i class="icon-ayah-bracket-right"></i></a>
+                        <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x">Tas</i></a>
+                        <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">﻿بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
+                        </p>
+                        <hr class="minor"/>
+                        <p class="ayah  ltr" dir="ltr">In the name of Allah, the Entirely Merciful, the Especially Merciful.
+                            <span class="by">Sahih International</a></span>
                             <hr/>
-                            <p>Select which format you want the text to appear in</p>
-                            <ul class="list-menu list-unstyled list-inline">
-                                <li><a href="#" class="no-underline selected"><i class="icon-large icon-minus-sign"></i> Simple</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Clean</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Minimal</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Enhanced</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Uthmani</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Uthmani Minimal</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Tajweed</a></li>
-                                <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Word by Word</a></li>
-                                <li><a href="#" class="no-underline selected"><i class="icon-large icon-minus-sign"></i> Word by Word for Kids</a></li>
-                            </ul>
-                        </div>
-                        <!-- train section -->
-                        <div class="setting-tab-content">
-                            <center>
-                                <h1 class="icon-tumblr icon-5x" style="font-size:12em;color:#55518a"></h1>
-                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Train Reservation</h3>
-                            </center>
-                        </div>
-
-                        <!-- hotel search -->
-                        <div class="setting-tab-content">
-                            <center>
-                                <h1 class="icon-music icon-5x" style="font-size:12em;color:#55518a"></h1>
-                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Hotel Directory</h3>
-                            </center>
-                        </div>
-                        <div class="setting-tab-content">
-                            <center>
-                                <h1 class="icon-desktop icon-5x" style="font-size:12em;color:#55518a"></h1>
-                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Restaurant Diirectory</h3>
-                            </center>
-                        </div>
-                        <div class="setting-tab-content">
-                            <center>
-                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
-                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
-                            </center>
+                        </section>
+                        <section class="ayah-group active">
+                            <a href="#/quran-simple+en.sahih/1:2" class="number" data-verse="2"><i class="icon-ayah-bracket-left"></i><span>2</span><i class="icon-ayah-bracket-right"></i></a>
+                            <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
+                            <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ                                                                        </p>
+                            <hr class="minor"/>
+                            <p class="ayah  ltr" dir="ltr">[All] praise is [due] to Allah, Lord of the worlds -
+                                <span class="by">Sahih International</a></span>
+                            <hr/></p>
+                        </section>
+                        <section class="ayah-group">
+                            <a href="#/quran-simple+en.sahih/1:1" class="number" data-verse="1"><i class="icon-ayah-bracket-left"></i><span>15</span><i class="icon-ayah-bracket-right"></i></a>
+                            <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
+                            <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">﻿بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
+                            </p>
+                            <hr class="minor"/>
+                            <p class="ayah  ltr" dir="ltr">In the name of Allah, the Entirely Merciful, the Especially Merciful.
+                                <span class="by">Sahih International</a></span>
+                                <hr/>
+                            </section>
+                            <section class="ayah-group">
+                                <a href="#/quran-simple+en.sahih/1:2" class="number" data-verse="2"><i class="icon-ayah-bracket-left"></i><span>285</span><i class="icon-ayah-bracket-right"></i></a>
+                                <a href="#" class="share no-underline"><i class="icon-share-alt icon-2x"></i></a>
+                                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ                                                                    </p>
+                                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'KFGQPC Uthman Taha Naskh';">وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ<span class="sign">&nbsp;ۖ</span> كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا<span class="sign">&nbsp;ۙ</span> قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ<span class="sign">&nbsp;ۖ</span> وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا<span class="sign">&nbsp;ۖ</span> وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ<span class="sign">&nbsp;ۖ</span> وَهُمْ فِيهَا خَـٰلِدُونَ</p>
+                                <p class="ayah quran-text rtl" dir="rtl" style="font-family: 'me_quran';">وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ<span class="sign">&nbsp;ۖ</span> كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا<span class="sign">&nbsp;ۙ</span> قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ<span class="sign">&nbsp;ۖ</span> وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا<span class="sign">&nbsp;ۖ</span> وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ<span class="sign">&nbsp;ۖ</span> وَهُمْ فِيهَا خَـٰلِدُونَ</p>
+                                <hr class="minor"/>
+                                <p class="ayah  ltr" dir="ltr">[All] praise is [due] to Allah, Lord of the worlds -
+                                    <span class="by">Sahih International</a></span>                                 </p>
+                                </section> -->
+                                <!--
+                                <div class="content-end"><span>Surah End</span></div>
+                                <div class="loading">
+                                    <i class="icon-spinner icon-spin icon-3x"></i>
+                                </div>
+                            </article>
+                            <footer>
+                                <hr>
+                                <p>&copy; <a href="http://GlobalQuran.com">GlobalQuran.com</a> 2014</p>
+                            </footer>
                         </div>
                     </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-
-    </div>
-</div>
-
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="ext/bootstrap/js/bootstrap.js"></script>
-<script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-<script>
-    $(document).ready(function() { 
-        console.log("hghkg");
-        $( ".modal-dialog" ).dialog({
-  title: "Global Quran", 
-  width: 1000, 
-  modal: true,
-  opacity: 0.1
-});
- 
-        $("div.setting-tab-menu>div.list-group>a").click(function(e) {
-            e.preventDefault();
-            $(this).siblings('a.active').removeClass("active");
-            $(this).addClass("active");
-            var index = $(this).index();
-            $("div.setting-tab>div.setting-tab-content").removeClass("active");
-            $("div.setting-tab>div.setting-tab-content").eq(index).addClass("active");
-        });
-    });
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=175325295868821&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</body>  
-
-</html>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" data-transition="flip">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="setting-tab-container">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 setting-tab-menu">
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item active text-center">
+                                                    <i class="icon-book icon-3x"></i><br/>Quran
+                                                </a>
+                                                <a href="#" class="list-group-item text-center">
+                                                    <i class="icon-tumblr icon-3x"></i><br/>Translation
+                                                </a>
+                                                <a href="#" class="list-group-item text-center">
+                                                    <i class="icon-music icon-3x"></i><br/>Audio
+                                                </a>
+                                                <a href="#" class="list-group-item text-center">
+                                                    <i class="icon-desktop icon-3x"></i><br/>Display
+                                                </a>
+                                                <a href="#" class="list-group-item text-center">
+                                                    <i class="glyphicon glyphicon-credit-card"></i><br/>--
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 setting-tab">
+                                            <!-- flight section -->
+                                            <div class="setting-tab-content active">
+                                                <h3>QURAN TEXT</h3>
+                                                <hr/>
+                                                <p>Select which format you want the text to appear in</p>
+                                                <ul class="list-menu list-unstyled list-inline">
+                                                    <li><a href="#" class="no-underline selected"><i class="icon-large icon-minus-sign"></i> Simple</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Clean</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Minimal</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Simple Enhanced</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Uthmani</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Uthmani Minimal</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Tajweed</a></li>
+                                                    <li><a href="#" class="no-underline"><i class="icon-large icon-plus-sign"></i> Word by Word</a></li>
+                                                    <li><a href="#" class="no-underline selected"><i class="icon-large icon-minus-sign"></i> Word by Word for Kids</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- train section -->
+                                            <div class="setting-tab-content">
+                                                <center>
+                                                <h1 class="icon-tumblr icon-5x" style="font-size:12em;color:#55518a"></h1>
+                                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                                <h3 style="margin-top: 0;color:#55518a">Train Reservation</h3>
+                                                </center>
+                                            </div>
+                                            <!-- hotel search -->
+                                            <div class="setting-tab-content">
+                                                <center>
+                                                <h1 class="icon-music icon-5x" style="font-size:12em;color:#55518a"></h1>
+                                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                                <h3 style="margin-top: 0;color:#55518a">Hotel Directory</h3>
+                                                </center>
+                                            </div>
+                                            <div class="setting-tab-content">
+                                                <center>
+                                                <h1 class="icon-desktop icon-5x" style="font-size:12em;color:#55518a"></h1>
+                                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                                <h3 style="margin-top: 0;color:#55518a">Restaurant Diirectory</h3>
+                                                </center>
+                                            </div>
+                                            <div class="setting-tab-content">
+                                                <center>
+                                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                                <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+                                                </center>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                        </div>
+                    </div>
+                    <script src="js/jquery-1.11.3.min.js"></script>
+                    <script src="ext/bootstrap/js/bootstrap.js"></script>
+                    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+                    <script>
+                    $(document).ready(function() {
+                    /* console.log("hghkg");
+                    $( ".modal-dialog" ).dialog({
+                    title: "Global Quran",
+                    width: 1000,
+                    modal: true,
+                    opacity: 0.1
+                    });*/
+                    
+                    $("div.setting-tab-menu>div.list-group>a").click(function(e) {
+                    e.preventDefault();
+                    $(this).siblings('a.active').removeClass("active");
+                    $(this).addClass("active");
+                    var index = $(this).index();
+                    $("div.setting-tab>div.setting-tab-content").removeClass("active");
+                    $("div.setting-tab>div.setting-tab-content").eq(index).addClass("active");
+                    });
+                    });
+                    </script>
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=175325295868821&version=v2.0";
+                    fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </body>
+            </html>

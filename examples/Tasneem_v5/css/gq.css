@@ -1777,6 +1777,37 @@ p a:hover,p a:focus {
   background: transparent;
 }
 
+div.middle > a {
+  background: url(button-dark-big.png) no-repeat;
+  padding: 13px 85px 37px 26px;
+  margin-top: 8px;
+  margin-right: -9px;
+  margin-left: 1px;
+  margin-bottom: -13px;
+  display: inline-flex;
+  text-align: center;
+  color: #b99c45;
+} 
+a.btn {
+  color: #555555; 
+  font-family: Lucida Bright,Georgia,serif; 
+  font-weight: bold; 
+  font-size: 150%;
+} 
+a.btn:hover {
+  color: #b99c45;
+} 
+div.middle > a:hover {
+ color: #816d30; 
+ text-decoration: none; 
+}
+
+.progress-bar {
+  background: #b99c45;
+}
+
+
+
 
 
 
