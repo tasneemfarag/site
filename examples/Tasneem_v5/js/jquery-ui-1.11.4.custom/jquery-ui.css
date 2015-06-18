@@ -484,8 +484,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-dialog .ui-dialog-titlebar {
 	padding: .4em 1em;
-	position: relative; 
-	display: none;
+	position: relative;
 }
 .ui-dialog .ui-dialog-title {
 	float: left;
@@ -493,8 +492,7 @@ button.ui-button::-moz-focus-inner {
 	white-space: nowrap;
 	width: 90%;
 	overflow: hidden;
-	text-overflow: ellipsis; 
-	
+	text-overflow: ellipsis;
 }
 .ui-dialog .ui-dialog-titlebar-close {
 	position: absolute;
