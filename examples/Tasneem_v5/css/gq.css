@@ -165,97 +165,97 @@ body.plain #container {
 .networkbar-space {
   top: 40px;
 }
-.ayah-group {
+ div > section.ayah-group {
   margin-top: 20px;
 }
-.ayah-group .ayah {
+ div > section.ayah-group .ayah {
   color: #72716b;
   font-size: 13px;
   margin-top: 15px;
 }
-.ayah-group .ayah.quran-text {
+ div > section.ayah-group .ayah.quran-text {
   color: #333333;
   font-family: 'me quran';
   font-size: 26px;
   line-height: 40px;
   word-spacing: 4px;
 }
-.ayah-group .ayah .number {
+div > section.ayah-group .ayah .number {
   font-size: 13px;
   white-space: nowrap;
 }
 .ayah-group .ayah .number:hover {
   text-decoration: none;
 }
-.ayah-group .ayah .number .icon-ayah-bracket-left,
-.ayah-group .ayah .number .icon-ayah-bracket-right {
+div > section.ayah-group .ayah .number .icon-ayah-bracket-left,
+ div > section.ayah-group .ayah .number .icon-ayah-bracket-right {
   margin: 0 5px -7px 5px;
   display: inline-block;
   width: 11px;
   height: 23px;
   background-repeat: no-repeat;
 }
-.ayah-group .ayah .number .icon-ayah-bracket-left {
-  background-image: url("../img/quran/bracket-left.png");
+ div > section.ayah-group .ayah .number .icon-ayah-bracket-left {
+  background-image: url("img/quran/bracket-left.png");
 }
-.ayah-group .ayah .number .icon-ayah-bracket-right {
-  background-image: url("../img/quran/bracket-right.png");
+ div > section.ayah-group .ayah .number .icon-ayah-bracket-right {
+  background-image: url("img/quran/bracket-right.png");
 }
-.ayah-group .ayah.text-zoom {
+div > section.ayah-group .ayah.text-zoom {
   font-size: 18px;
 }
-.ayah-group .ayah.wds {
+div > section.ayah-group .ayah.wds {
   word-spacing: 4px;
 }
-.ayah-group .ayah .by {
+div > section.ayah-group .ayah .by {
   width: 260px;
   display: block;
 }
-.ayah-group.selected .ayah .number {
+div > section.ayah-group.selected .ayah .number {
   color: #12575b;
 }
-.ayah-group.selected .ayah .number:hover {
+div > section.ayah-group.selected .ayah .number:hover {
   color: #12575b;
 }
-.ayah-group.selected .ayah .number .icon-ayah-bracket-left {
-  background-image: url("../img/quran/bracket-left-hover.png");
+div > section.ayah-group.selected .ayah .number .icon-ayah-bracket-left {
+  background-image: url("img/quran/bracket-left-hover.png");
 }
-.ayah-group.selected .ayah .number .icon-ayah-bracket-right {
-  background-image: url("../img/quran/bracket-right-hover.png");
+div > section.ayah-group.selected .ayah .number .icon-ayah-bracket-right {
+  background-image: url("img/quran/bracket-right-hover.png");
 }
 /* required fonts */
 @font-face {
   font-family: 'me quran';
-  src: url('../img/font-quran/me_quran-webfont.eot');
-  src: url('../img/font-quran/me_quran-webfont.eot?#iefix') format('embedded-opentype'), url('../img/font-quran/me_quran-webfont.woff') format('woff'), url('../img/font-quran/me_quran-webfont.ttf') format('truetype'), url('../img/font-quran/me_quran-webfont.svg#mequranRegular') format('svg');
+  src: url('img/font-quran/me_quran-webfont.eot');
+  src: url('img/font-quran/me_quran-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/me_quran-webfont.woff') format('woff'), url('img/font-quran/me_quran-webfont.ttf') format('truetype'), url('img/font-quran/me_quran-webfont.svg#mequranRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PDMS Saleem QuranFont';
-  src: url('../img/font-quran/pdms_saleem-webfont.eot');
-  src: url('../img/font-quran/pdms_saleem-webfont.eot?#iefix') format('embedded-opentype'), url('../img/font-quran/pdms_saleem-webfont.woff') format('woff'), url('../img/font-quran/pdms_saleem-webfont.ttf') format('truetype'), url('../img/font-quran/pdms_saleem-webfont.svg#') format('svg');
+  src: url('img/font-quran/pdms_saleem-webfont.eot');
+  src: url('img/font-quran/pdms_saleem-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/pdms_saleem-webfont.woff') format('woff'), url('img/font-quran/pdms_saleem-webfont.ttf') format('truetype'), url('img/font-quran/pdms_saleem-webfont.svg#') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'KFGQPC Uthman Taha Naskh';
-  src: url('../img/font-quran/kfc_naskh-webfont.eot');
-  src: url('../img/font-quran/kfc_naskh-webfont.eot?#iefix') format('embedded-opentype'), url('../img/font-quran/kfc_naskh-webfont.woff') format('woff'), url('../img/font-quran/kfc_naskh-webfont.ttf') format('truetype'), url('../img/font-quran/kfc_naskh-webfont.svg#KFGQPCUthmanTahaNaskhRegular') format('svg');
+  src: url('img/font-quran/kfc_naskh-webfont.eot');
+  src: url('img/font-quran/kfc_naskh-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/kfc_naskh-webfont.woff') format('woff'), url('img/font-quran/kfc_naskh-webfont.ttf') format('truetype'), url('img/font-quran/kfc_naskh-webfont.svg#KFGQPCUthmanTahaNaskhRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Scheherazade';
-  src: url('../img/font-quran/scheherazade-webfont.eot');
-  src: url('../img/font-quran/scheherazade-webfont.eot?#iefix') format('embedded-opentype'), url('../img/font-quran/scheherazade-webfont.woff') format('woff'), url('../img/font-quran/scheherazade-webfont.ttf') format('truetype'), url('../img/font-quran/scheherazade-webfont.svg#ScheherazadeRegular') format('svg');
+  src: url('img/font-quran/scheherazade-webfont.eot');
+  src: url('img/font-quran/scheherazade-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/scheherazade-webfont.woff') format('woff'), url('img/font-quran/scheherazade-webfont.ttf') format('truetype'), url('img/font-quran/scheherazade-webfont.svg#ScheherazadeRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'XB Zar';
-  src: url('../img/font-quran/xb_zar-webfont.eot');
-  src: url('../img/font-quran/xb_zar-webfont.eot?#iefix') format('embedded-opentype'), url('../img/font-quran/xb_zar-webfont.woff') format('woff'), url('../img/font-quran/xb_zar-webfont.ttf') format('truetype'), url('../img/font-quran/xb_zar-webfont.svg#XBZarRegular') format('svg');
+  src: url('img/font-quran/xb_zar-webfont.eot');
+  src: url('img/font-quran/xb_zar-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/xb_zar-webfont.woff') format('woff'), url('img/font-quran/xb_zar-webfont.ttf') format('truetype'), url('img/font-quran/xb_zar-webfont.svg#XBZarRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1495,17 +1495,22 @@ body {
   color: #a8a8a8;
 }
 .plain-quran .quran-content {
-  border-left: 78px solid #333333;
+  border-left: 88px solid #333333;
   margin-top: -20px;
   margin-bottom: -40px;
   padding-bottom: 20px;
 }
+
+.plain-quran .ayah-group a.number {
+  background-color: #333333;
+}
+
 .plain-quran .number {
   position: absolute;
-  left: -63px;
+  left: -77px;
   font-size: 13px;
   display: inline;
-  padding: .2em 0em .3em 0em;
+  padding: .2em 0em .3em 1em;
   font-weight: bold;
   line-height: 1;
   text-align: center;
@@ -1668,7 +1673,7 @@ body {
 .plain-quran .setting-tab-container .setting-tab {
   width: 70%;
 }
-.plain-quran .setting-tab-container .setting-tab-content {
+.plain-quran .setting-tab-container  {
   background-color: #ffffff;
   /* border: 1px solid #eeeeee; */
   padding-left: 20px;
@@ -1804,10 +1809,101 @@ div.middle > a:hover {
 
 .progress-bar {
   background: #b99c45;
+}  
+
+div#juz {
+  display: none; 
+} 
+
+div#page {
+  display: none; 
+} 
+
+div#surah {
+  display: block;
+} 
+
+div.Al-Faatiha {
+  display: none;  
+  text-align: right; 
+   
+} 
+
+div.Al-Baqara {
+  display: none;  
+  text-align: right; 
+  font-size: 200%;  
+  font-family: 'KFGQPC Uthman Taha Naskh';
+} 
+
+div.Aal-Imran {
+  display: none;  
+  text-align: right; 
+  font-size: 200%
+}
+
+div.An-Nisaa {
+  display: none;  
+  text-align: right; 
+  font-size: 200%
+}
+
+div.juz-2 {
+  display: none;  
+}
+div#pause{
+  display: none; 
+}
+div.page-16 {
+  display: none;
+} 
+button.close {
+  display: none;
+} 
+.ui-dialog {
+  display: none;
 }
 
 
 
 
 
+
+
+
+
+
+
+div.ui-widget-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+
+  position: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 38px;
+  left: 164px;
+  right: 164px;
+  top: 136px;
+  z-index: 101;
+}
+
+div.setting-tab-content {
+   {
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 3px;
+  padding-top: 23px;
+  margin: 6px;
+}
+div.ui-dialog {
+  display: none;
+}
 
