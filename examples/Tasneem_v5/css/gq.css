@@ -1739,5 +1739,11 @@ div.setting-tab-content {
   margin: 6px
 }
 div.ui-dialog {
-  display: none
+  display: none;
+} 
+
+div.ui-dialog-titlebar {
+  display: none;
 }
+
+
