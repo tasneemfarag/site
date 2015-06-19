@@ -40,6 +40,7 @@ $(document).ready(function() {
 		if ($("div#juz").is(":visible") == true) {
 			$("div#juz").hide("slow");
 		} else {
+			$("#btn-surah").removeClass("active");
 			$("div#juz").show("slow");
 			$("div#surah").hide("slow");
 			$("div#page").hide("slow");
@@ -55,6 +56,7 @@ $(document).ready(function() {
 		if ($("div#page").is(":visible") == true) {
 			$("div#page").hide("slow");
 		} else {
+			$("#btn-surah").removeClass("active");
 			$("div#page").show("slow");
 			$("div#surah").hide("slow");
 			$("div#juz").hide("slow");
