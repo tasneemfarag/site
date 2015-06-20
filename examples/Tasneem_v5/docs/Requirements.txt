@@ -1,4 +1,3 @@
-6. Proper spacing/padding in modal tabs.
 7. Generalize ids and classes for surahs, pages and juz: Don't use Al-Faatiha, Al-Bararah, etc. or juz-2 or page-16.
 -----------------------------------------------
 8. Have the Big play button on the top to toggle with Pause button when clicked.
