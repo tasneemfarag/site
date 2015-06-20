@@ -129,14 +129,7 @@ $(document).ready(function() {
 			$("div#play > button > span").switchClass("glyphicon-play", "glyphicon-pause", 4000, "easeInOutQuad");
 		}
 	});
-	$("ul.list-menu.list-unstyled.list-inline>li>a.no-underline").click(function(e) {
-		e.preventDefault();
-		$(this).siblings('a.selected').removeClass("selected");
-		$(this).addClass("selected");
-		var index = $(this).index();
-		$("ul.list-menu.list-unstyled.list-inline>li>a.no-underline").removeClass("selected");
-		$("ul.list-menu.list-unstyled.list-inline>li>a.no-underline").eq(index).addClass("selected");
-	});
+	
 	$("div#myModal>div.modal-dialog>div.modal-content>div.modal-body>div.container-fluid>div.row>div.setting-tab-menu>div.list-group>a").click(function(e) {
 		console.log('hi');
 		e.preventDefault();
