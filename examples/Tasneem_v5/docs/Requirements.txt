@@ -3,3 +3,4 @@
 8. Have the Big play button on the top to toggle with Pause button when clicked.
 9. Have both play buttons and pause buttons change together.
 10. Make sure clicking on buttons, gears, etc. doesn't show a square blue border selection on that button or gear.
+11. Add JS for modal to be able to select/deselect items in the setting-tab-content and make sure that the bakground of the "li"s change as well
