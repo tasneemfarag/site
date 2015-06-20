@@ -5,7 +5,11 @@ $(document).ready(function() {
 	width: 1000,
 	modal: true,
 	opacity: 0.1
-	});*/
+	});*/ 
+     
+    $("div.modal-close").click(function() {
+    	//$("div#myModal").dialog("close");
+    });
 
 	function allButtonsNotSelecetedView() {
 		if ($("div#surah").is(":visible") == false && $("div#juz").is(":visible") == false && $("div#page").is(":visible") == false) {
@@ -131,7 +135,6 @@ $(document).ready(function() {
 	});
 	
 	$("div#myModal>div.modal-dialog>div.modal-content>div.modal-body>div.container-fluid>div.row>div.setting-tab-menu>div.list-group>a").click(function(e) {
-		console.log('hi');
 		e.preventDefault();
 		$(this).siblings('a.active').removeClass("active");
 		$(this).addClass("active");

@@ -1708,7 +1708,7 @@ div#pause {
 div.page-16 {
   display: none
 }
-button.close {
+.hide_for_now {
   display: none
 }
 .ui-dialog {
@@ -1763,4 +1763,6 @@ div.ui-dialog-titlebar {
   padding-top: 0px;
   height: -1px;
 }
-
+.modal-close {
+  float: right;
+}
