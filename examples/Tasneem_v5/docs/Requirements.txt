@@ -2,3 +2,6 @@
 5. When sm or xs hide small settings button.
 6. Proper spacing/padding in modal tabs.
 7. Generalize ids and classes for surahs, pages and juz: Don't use Al-Faatiha, Al-Bararah, etc. or juz-2 or page-16.
+-----------------------------------------------
+8. Have the Big play button on the top to toggle with Pause button when clicked.
+9. Have both play buttons and pause buttons change together.
