@@ -1,4 +1,4 @@
-2. Adding a close button at the top right corner of the modal. Exactly on the corner.
+2. Adding a close button at the top right corner of the modal. Exactly on the corner and have it close the modal.
 3. Replace light blue with light gold and dark blue (on hover) with dark gold.
 4. Small settings button. Make it do the same as large settings button.
 5. When sm or xs hide small settings button.
