@@ -1745,5 +1745,22 @@ div.ui-dialog {
 div.ui-dialog-titlebar {
   display: none;
 }
+.plain-quran .setting-tab-container {
+  
+  background-color: #ffffff;
+  padding-left: 20px;
+  height: 91px;
+  margin-left: -16px;
+  margin-bottom: 3px;
+  margin-top: -15px;
+  border: 0px;
+  margin-right: 42px;
 
+} 
+.list-group {
+  padding-left: 0px;
+  padding-bottom: -14px;
+  padding-top: 0px;
+  height: -1px;
+}
 

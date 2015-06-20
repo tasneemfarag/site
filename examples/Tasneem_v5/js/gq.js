@@ -13,13 +13,7 @@ $(document).ready(function() {
 		}
 	}
 
-	$("i.icon-gear.icon-3x").click(function() {
-		$(".modal-dialog").dialog({
-			width: 1000,
-			modal: true,
-			opacity: 0.1
-		});
-	});
+	
 	$("#btn-surah").click(function() {
 		if ($("div#surah").is(":visible") == true) {
 			$("#btn-surah").toggleClass("active");
