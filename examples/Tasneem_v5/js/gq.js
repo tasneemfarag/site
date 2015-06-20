@@ -76,36 +76,6 @@ $(document).ready(function() {
 			$("div#page").hide("slow");
 		}
 	});
-	$(".btn-Al-Baqara").click(function() {
-		if ($("div.Al-Baqara").is(":visible") == true) {
-			$("div.Al-Baqara").hide("slow");
-		} else {
-			$("div.Al-Baqara").show("slow");
-			$("div#surah").hide("slow");
-			$("div#juz").hide("slow");
-			$("div#page").hide("slow");
-		}
-	});
-	$(".btn-Aal-Imran").click(function() {
-		if ($("div.Aal-Imran").is(":visible") == true) {
-			$("div.Aal-Imran").hide("slow");
-		} else {
-			$("div.Aal-Imran").show("slow");
-			$("div#surah").hide("slow");
-			$("div#juz").hide("slow");
-			$("div#page").hide("slow");
-		}
-	});
-	$(".btn-An-Nisaa").click(function() {
-		if ($("div.An-Nisaa").is(":visible") == true) {
-			$("div.An-Nisaa").hide("slow");
-		} else {
-			$("div.An-Nisaa").show("slow");
-			$("div#surah").hide("slow");
-			$("div#juz").hide("slow");
-			$("div#page").hide("slow");
-		}
-	});
 	$("#btn-juz-2").click(function() {
 		if ($("div.juz-2").is(":visible") == true) {
 			$("div.juz-2").hide("slow");
