@@ -1765,4 +1765,12 @@ div.ui-dialog-titlebar {
 }
 .modal-close {
   float: right;
-}
+} 
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #b99c45;
+  border-color: #b99c45;
+} 
+
+
+
