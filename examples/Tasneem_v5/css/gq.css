@@ -1551,7 +1551,7 @@ body {
   padding-left: 20px;
   padding-top: 10px
 }
-.plain-quran .setting-tab-container .setting-tab .setting-tab-content:not(.active) {
+.plain-quran .setting-tab .setting-tab-content:not(.active) {
   display: none
 }
 @media (max-width:767px) {

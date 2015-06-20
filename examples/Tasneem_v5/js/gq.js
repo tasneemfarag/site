@@ -137,7 +137,8 @@ $(document).ready(function() {
 		$("ul.list-menu.list-unstyled.list-inline>li>a.no-underline").removeClass("selected");
 		$("ul.list-menu.list-unstyled.list-inline>li>a.no-underline").eq(index).addClass("selected");
 	});
-	$("div.setting-tab-menu>div.list-group>a").click(function(e) {
+	$("div#myModal>div.modal-dialog>div.modal-content>div.modal-body>div.container-fluid>div.row>div.setting-tab-menu>div.list-group>a").click(function(e) {
+		console.log('hi');
 		e.preventDefault();
 		$(this).siblings('a.active').removeClass("active");
 		$(this).addClass("active");
