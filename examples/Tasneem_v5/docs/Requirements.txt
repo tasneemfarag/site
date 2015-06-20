@@ -1,0 +1,6 @@
+1. Fixing tab selection and content of modal functionality. When clicking a tab header, the correct content shows.
+2. Adding a close button at the top right corner of the modal. Exactly on the corner.
+3. Replace light blue with light gold and dark blue (on hover) with dark gold.
+4. Small settings button. Make it do the same as large settings button.
+5. When sm or xs hide small settings button.
+6. Proper spacing/padding in modal tabs.
