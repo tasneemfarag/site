@@ -1,0 +1,1769 @@
+body {
+  padding-bottom: 40px
+}
+body.plain {
+  color: #555;
+  background-color: #fff;
+  background-image: none
+}
+body.plain #container {
+  background-color: #fff
+}
+#container {
+  background-color: #fefefe;
+  padding: 1em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px
+}
+.ltr {
+  text-align: left
+}
+.rtl {
+  text-align: right
+}
+.no-underline {
+  text-decoration: none
+}
+.no-underline:hover, .no-underline:focus, .no-underline:link {
+  text-decoration: none
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.plain .navbar-default {
+  background-color: #fafafa;
+  border-color: #dbdbdb
+}
+.plain .navbar-default .navbar-brand {
+  color: #777777
+}
+.plain .navbar-default .navbar-brand:hover, .plain .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent
+}
+.plain .navbar-default .navbar-text {
+  color: #777777
+}
+.plain .navbar-default .navbar-nav > li > a {
+  color: #777777
+}
+.plain .navbar-default .navbar-nav > li > a:hover, .plain .navbar-default .navbar-nav > li > a:focus {
+  color: #b99c45;
+  background-color: #fafafa
+}
+.plain .navbar-default .navbar-nav > .active > a, .plain .navbar-default .navbar-nav > .active > a:hover, .plain .navbar-default .navbar-nav > .active > a:focus {
+  color: #b99c45;
+  background-color: #fafafa
+}
+.plain .navbar-default .navbar-nav > .disabled > a, .plain .navbar-default .navbar-nav > .disabled > a:hover, .plain .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent
+}
+.plain .navbar-default .navbar-toggle {
+  border-color: #dddddd
+}
+.plain .navbar-default .navbar-toggle:hover, .plain .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd
+}
+.plain .navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc
+}
+.plain .navbar-default .navbar-collapse, .plain .navbar-default .navbar-form {
+  border-color: #e8e8e8
+}
+.plain .navbar-default .navbar-nav > .dropdown > a:hover .caret, .plain .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #b99c45;
+  border-bottom-color: #b99c45
+}
+.plain .navbar-default .navbar-nav > .open > a, .plain .navbar-default .navbar-nav > .open > a:hover, .plain .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fafafa;
+  color: #b99c45
+}
+.plain .navbar-default .navbar-nav > .open > a .caret, .plain .navbar-default .navbar-nav > .open > a:hover .caret, .plain .navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #b99c45;
+  border-bottom-color: #b99c45
+}
+.plain .navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777
+}
+@media (max-width:767px) {
+  .plain .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777
+  }
+  .plain .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .plain .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #b99c45;
+    background-color: #fafafa
+  }
+  .plain .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .plain .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .plain .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #b99c45;
+    background-color: #fafafa
+  }
+  .plain .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .plain .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .plain .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent
+  }
+}
+.plain .navbar-default .navbar-link {
+  color: #777777
+}
+.plain .navbar-default .navbar-link:hover {
+  color: #b99c45
+}
+.networkbar {
+  margin-bottom: 0px;
+  min-height: 22px
+}
+.networkbar .nav a {
+  border-top: transparent 2px solid
+}
+.networkbar .nav a:hover {
+  border-top: #5cb85c 2px solid
+}
+.networkbar .nav .active > a, .networkbar .nav .active > a:hover {
+  border-top: #b99c45 2px solid
+}
+.networkbar .nav-sub a:hover {
+  border-top: #b99c45 2px solid
+}
+.networkbar .navbar-inner {
+  min-height: 22px
+}
+.networkbar .navbar-text {
+  line-height: 22px
+}
+.networkbar .divider-vertical {
+  height: 22px
+}
+.networkbar .nav > li > a {
+  padding: 10.2857142855px 15px 10.2857142855px
+}
+.networkbar-space {
+  top: 40px
+}
+div > section.ayah-group {
+  margin-top: 20px
+}
+div > section.ayah-group .ayah {
+  color: #72716b;
+  font-size: 13px;
+  margin-top: 15px
+}
+div > section.ayah-group .ayah.quran-text {
+  color: #333333;
+  font-family: 'me quran';
+  font-size: 26px;
+  line-height: 40px;
+  word-spacing: 4px
+}
+div > section.ayah-group .ayah .number {
+  font-size: 13px;
+  white-space: nowrap
+}
+.ayah-group .ayah .number:hover {
+  text-decoration: none
+}
+div > section.ayah-group .ayah .number .icon-ayah-bracket-left, div > section.ayah-group .ayah .number .icon-ayah-bracket-right {
+  margin: 0 5px -7px 5px;
+  display: inline-block;
+  width: 11px;
+  height: 23px;
+  background-repeat: no-repeat
+}
+div > section.ayah-group .ayah .number .icon-ayah-bracket-left {
+  background-image: url("img/quran/bracket-left.png")
+}
+div > section.ayah-group .ayah .number .icon-ayah-bracket-right {
+  background-image: url("img/quran/bracket-right.png")
+}
+div > section.ayah-group .ayah.text-zoom {
+  font-size: 18px
+}
+div > section.ayah-group .ayah.wds {
+  word-spacing: 4px
+}
+div > section.ayah-group .ayah .by {
+  width: 260px;
+  display: block
+}
+div > section.ayah-group.selected .ayah .number {
+  color: #12575b
+}
+div > section.ayah-group.selected .ayah .number:hover {
+  color: #12575b
+}
+div > section.ayah-group.selected .ayah .number .icon-ayah-bracket-left {
+  background-image: url("img/quran/bracket-left-hover.png")
+}
+div > section.ayah-group.selected .ayah .number .icon-ayah-bracket-right {
+  background-image: url("img/quran/bracket-right-hover.png")
+}
+@font-face {
+  font-family: 'me quran';
+  src: url('img/font-quran/me_quran-webfont.eot');
+  src: url('img/font-quran/me_quran-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/me_quran-webfont.woff') format('woff'), url('img/font-quran/me_quran-webfont.ttf') format('truetype'), url('img/font-quran/me_quran-webfont.svg#mequranRegular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'PDMS Saleem QuranFont';
+  src: url('img/font-quran/pdms_saleem-webfont.eot');
+  src: url('img/font-quran/pdms_saleem-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/pdms_saleem-webfont.woff') format('woff'), url('img/font-quran/pdms_saleem-webfont.ttf') format('truetype'), url('img/font-quran/pdms_saleem-webfont.svg#') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'KFGQPC Uthman Taha Naskh';
+  src: url('img/font-quran/kfc_naskh-webfont.eot');
+  src: url('img/font-quran/kfc_naskh-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/kfc_naskh-webfont.woff') format('woff'), url('img/font-quran/kfc_naskh-webfont.ttf') format('truetype'), url('img/font-quran/kfc_naskh-webfont.svg#KFGQPCUthmanTahaNaskhRegular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Scheherazade';
+  src: url('img/font-quran/scheherazade-webfont.eot');
+  src: url('img/font-quran/scheherazade-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/scheherazade-webfont.woff') format('woff'), url('img/font-quran/scheherazade-webfont.ttf') format('truetype'), url('img/font-quran/scheherazade-webfont.svg#ScheherazadeRegular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: 'XB Zar';
+  src: url('img/font-quran/xb_zar-webfont.eot');
+  src: url('img/font-quran/xb_zar-webfont.eot?#iefix') format('embedded-opentype'), url('img/font-quran/xb_zar-webfont.woff') format('woff'), url('img/font-quran/xb_zar-webfont.ttf') format('truetype'), url('img/font-quran/xb_zar-webfont.svg#XBZarRegular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+.sign {
+  font-family: me_quran, meQuran, Times New Roman;
+  color: #FB7600;
+  font-size: 70%
+}
+.internal-sign {
+  font-family: me_quran, meQuran, Times New Roman;
+  color: green;
+  font-size: 70%
+}
+.juz-sign {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -80px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px
+}
+.ghn {
+  color: #FF7E1E
+}
+.color.ghn {
+  background-color: #FF7E1E
+}
+.qlq {
+  color: #DD0008
+}
+.color.qlq {
+  background-color: #DD0008
+}
+.qlq:hover {
+  background-color: #F3A6A9;
+  color: #DD0008;
+  cursor: pointer
+}
+.idgh_ghn {
+  color: #169200
+}
+.color.idgh_ghn {
+  background-color: #169200
+}
+.idgh_ghn:hover {
+  background-color: #9CE58E;
+  color: #169200;
+  cursor: pointer
+}
+.idgh_w_ghn {
+  color: #169200
+}
+.color.idgh_w_ghn {
+  background-color: #169200
+}
+.idgh_w_ghn:hover {
+  background-color: #9CE58E;
+  color: #169200;
+  cursor: pointer
+}
+.iqlb {
+  color: #26BFFD
+}
+.color.iqlb {
+  background-color: #26BFFD
+}
+.iqlb:hover {
+  background-color: #92E5FF;
+  color: #0099C5;
+  cursor: pointer
+}
+.ikhf {
+  color: #9400A8
+}
+.color.ikhf {
+  background-color: #9400A8
+}
+.ikhf:hover {
+  background-color: #DAA6E1;
+  color: #9400A8;
+  cursor: pointer
+}
+.ikhf_shfw {
+  color: #D500B7
+}
+.color.ikhf_shfw {
+  background-color: #D500B7
+}
+.ikhf_shfw:hover {
+  background-color: #F0A6E6;
+  color: #D500B7;
+  cursor: pointer
+}
+.idghm_shfw {
+  color: #58B800
+}
+.color.idghm_shfw {
+  background-color: #58B800
+}
+.idghm_shfw:hover {
+  background-color: #BAE890;
+  color: #58B800;
+  cursor: pointer
+}
+.slnt {
+  color: #AAAAAA
+}
+.color.slnt {
+  background-color: #AAAAAA
+}
+.ham_wasl {
+  color: #AAAAAA
+}
+.color.ham_wasl {
+  background-color: #AAAAAA
+}
+.ham_wasl:hover {
+  background-color: #D7D7D7
+}
+.madda_necessary {
+  color: #000EBC
+}
+.color.madda_necessary {
+  background-color: #000EBC
+}
+.madda_obligatory {
+  color: #2144C1
+}
+.color.madda_obligatory {
+  background-color: #2144C1
+}
+.madda_permissible {
+  color: #4050FF
+}
+.color.madda_permissible {
+  background-color: #4050FF
+}
+.madda_normal {
+  color: #537FFF
+}
+.color.madda_normal {
+  background-color: #537FFF
+}
+.idgh_mus {
+  color: #A1A1A1
+}
+.color.idgh_mus {
+  background-color: #A1A1A1
+}
+.idgh_mus:hover {
+  background-color: #D7D7D7
+}
+.word {
+  margin-left: 8px;
+  margin-right: 8px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline
+}
+.word.staticWord {
+  padding: .2em .3em .2em .3em
+}
+.word.staticWord:hover {
+  background-color: #ffffee
+}
+.word.staticWord .first, .word.staticWord .second {
+  text-align: center
+}
+.word .first, .word .second {
+  display: block
+}
+.word .first {
+  padding-top: .2em;
+  padding-bottom: .2em
+}
+.word .second.en {
+  font-size: 75%
+}
+.word .tipsWord:hover {
+  cursor: help;
+  color: #3B5998;
+  text-decoration: overline
+}
+.wordColor1 {
+  color: #006AFF
+}
+.wordColor2 {
+  color: #FFD800
+}
+.wordColor3 {
+  color: #129308
+}
+.wordColor4 {
+  color: #CE7706
+}
+.wordColor5 {
+  color: #C90404
+}
+.wordColor6 {
+  color: #CE0692
+}
+.wordColor7 {
+  color: #A624F2
+}
+.wordColor8 {
+  color: #6928E2
+}
+.wordColor9 {
+  color: #0428C9
+}
+.wordColor10 {
+  color: #04AFC9
+}
+.quran {
+  width: 1042px;
+  margin: 0 auto
+}
+.quran a {
+  cursor: pointer
+}
+.quran .book {
+  width: 1042px;
+  height: 928px;
+  margin: 0 auto;
+  z-index: 2;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  -webkit-transition: margin-left 0.2 s;
+  -moz-transition: margin-left 0.2s;
+  -ms-transition: margin-left 0.2s;
+  -o-transition: margin-left 0.2s;
+  transition: margin-left 0.2s
+}
+.quran .book .page-wrapper {
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  -o-perspective: 2000px;
+  perspective: 2000px
+}
+.quran .book .page, .quran .book .hard {
+  background-repeat: no-repeat
+}
+.quran .book .page.odd {
+  background-image: url("../img/book/pl.png")
+}
+.quran .book .page.even {
+  background-image: url("../img/book/pr.png")
+}
+.quran .book .hard {
+  width: 556px;
+  height: 928px
+}
+.quran .book .hard.front {
+  background-image: url("../img/book/hcf.png")
+}
+.quran .book .hard.right {
+  background-image: url("../img/book/pbr.png")
+}
+.quran .book .hard.left {
+  background-image: url("../img/book/pbl.png")
+}
+.quran .book .page-wrapper.right .page .header, .quran .book .page-wrapper.right .page .content, .quran .book .page-wrapper.right .page .footer {
+  position: relative;
+  left: -8px
+}
+.quran .book .page .header, .quran .book .hard .header {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 55px
+}
+.quran .book .page .header .title, .quran .book .hard .header .title {
+  float: left;
+  margin-left: 35px
+}
+.quran .book .page .header .title .name, .quran .book .hard .header .title .name {
+  color: #b99c45
+}
+.quran .book .page .header .title .meaning, .quran .book .hard .header .title .meaning {
+  color: #555555
+}
+.quran .book .page .header .title a:hover, .quran .book .hard .header .title a:hover {
+  text-decoration: none
+}
+.quran .book .page .header .pageinfo, .quran .book .hard .header .pageinfo {
+  float: right;
+  margin-right: 45px
+}
+.quran .book .page .header .pageinfo .number, .quran .book .hard .header .pageinfo .number {
+  color: #b99c45
+}
+.quran .book .page .header .pageinfo a:hover, .quran .book .hard .header .pageinfo a:hover {
+  text-decoration: none
+}
+.quran .book .page .footer, .quran .book .hard .footer {
+  margin-top: 35px;
+  margin-right: 40px;
+  float: right
+}
+.quran .book .page .footer .share, .quran .book .hard .footer .share {
+  font-size: 24px;
+  color: #999999
+}
+.quran .book .page .footer .share:hover, .quran .book .hard .footer .share:hover {
+  color: #222222;
+  text-decoration: none
+}
+.quran .book .page .content, .quran .book .hard .content {
+  clear: both;
+  margin-top: 115px;
+  margin-left: 80px;
+  margin-right: 70px;
+  padding-right: 15px;
+  height: 700px;
+  overflow: auto
+}
+.quran .book .page .content .title, .quran .book .hard .content .title {
+  background-image: url("../img/quran/titlecontainer.png");
+  width: 324px;
+  height: 50px;
+  margin: 20px auto
+}
+.quran .book .page .content .title .prevSurah, .quran .book .hard .content .title .prevSurah, .quran .book .page .content .title .nextSurah, .quran .book .hard .content .title .nextSurah, .quran .book .page .content .title h2, .quran .book .hard .content .title h2 {
+  display: inline-block;
+  width: 100px;
+  height: inherit;
+  float: left;
+  font-size: inherit
+}
+.quran .book .page .content .title .prevSurah .icon-chevron-left, .quran .book .hard .content .title .prevSurah .icon-chevron-left, .quran .book .page .content .title .nextSurah .icon-chevron-left, .quran .book .hard .content .title .nextSurah .icon-chevron-left, .quran .book .page .content .title h2 .icon-chevron-left, .quran .book .hard .content .title h2 .icon-chevron-left, .quran .book .page .content .title .prevSurah .icon-chevron-right, .quran .book .hard .content .title .prevSurah .icon-chevron-right, .quran .book .page .content .title .nextSurah .icon-chevron-right, .quran .book .hard .content .title .nextSurah .icon-chevron-right, .quran .book .page .content .title h2 .icon-chevron-right, .quran .book .hard .content .title h2 .icon-chevron-right {
+  visibility: hidden
+}
+.quran .book .page .content .title h2, .quran .book .hard .content .title h2 {
+  width: 120px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+  overflow: hidden
+}
+.quran .book .page .content hr, .quran .book .hard .content hr {
+  border-top-color: transparent;
+  border-bottom-color: #cccccc
+}
+.quran .book-nav {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  margin-top: -464px;
+  z-index: 1;
+  background-repeat: no-repeat
+}
+.quran .book-nav.next {
+  background-image: url("../img/book/ui/asl.png");
+  left: 30px
+}
+.quran .book-nav.prev {
+  background-image: url("../img/book/ui/asr.png");
+  right: 30px
+}
+.quran .options {
+  position: relative
+}
+.quran .options .stack {
+  background: url("../img/book/stack-effect.png") repeat-x;
+  height: 928px;
+  width: 22px;
+  position: absolute;
+  margin-top: -878px;
+  margin-left: -22px;
+  z-index: 999
+}
+.quran .options .stack.right {
+  margin-left: 1041px
+}
+.quran .options .menu {
+  list-style: none;
+  z-index: 1000;
+  position: absolute;
+  top: -828px;
+  left: -112px;
+  width: 73px
+}
+.quran .options .menu .item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  left: 53px;
+  width: 19px;
+  height: 73px;
+  background-repeat: no-repeat;
+  background-image: url("../img/book/ui/menu-item-bg.png");
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s
+}
+.quran .options .menu .item:hover {
+  background-image: url("../img/book/ui/menu-item-bg-hover.png");
+  width: 73px;
+  left: 0
+}
+.quran .options .menu .item i {
+  color: #fff;
+  font-size: 30px;
+  display: block;
+  padding-top: 20px;
+  padding-left: 30px
+}
+.quran .options .menu .item i.text-danger {
+  color: #d33632
+}
+.quran .options .menu .item:hover {
+  text-decoration: none
+}
+.quran .options .menu .item .badge {
+  float: left;
+  padding: 3px
+}
+.quran .options .menu .active .item {
+  background-image: url("../img/book/ui/menu-item-bg-hover.png");
+  width: 73px;
+  left: 0
+}
+.quran .options .active .menu-list {
+  display: block
+}
+.quran .options .menu-list {
+  display: none;
+  top: 10px
+}
+.quran .options .menu-list, .quran .options .menu-list ul {
+  list-style: none;
+  width: 210px;
+  position: absolute;
+  left: 120px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 0
+}
+.quran .options .menu-list ul {
+  left: 210px;
+  top: 0px
+}
+.quran .options .menu-list ul .sf-scroll {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: 1px solid #fff;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  text-align: center
+}
+.quran .options .menu-list ul .sf-scroll:hover, .quran .options .menu-list ul .sf-scroll.active {
+  color: #fff;
+  background-image: url("../img/book/ui/menu-list-active.png");
+  background-repeat: repeat-x;
+  text-decoration: none
+}
+.quran .options .menu-list ul .sf-scroll i {
+  color: #666
+}
+.quran .options .menu-list li {
+  position: relative
+}
+.quran .options .menu-list li ul {
+  display: none
+}
+.quran .options .menu-list li:hover ul {
+  display: block
+}
+.quran .options .menu-list li a {
+  display: block;
+  padding: 17px 10px 16px 20px;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: 1px solid #fff;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  color: #666;
+  font-size: 15px;
+  font-weight: bold
+}
+.quran .options .menu-list li a:hover, .quran .options .menu-list li a.active {
+  color: #fff;
+  background-image: url("../img/book/ui/menu-list-hover.png");
+  background-repeat: repeat-x;
+  border-top-color: #090c0c;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  text-decoration: none
+}
+.quran .options .menu-list li a.active {
+  background-image: url("../img/book/ui/menu-list-active.png")
+}
+.quran .options .active .badge {
+  background-color: #d9534f
+}
+.quran .options .active .news {
+  display: block;
+  position: relative;
+  top: -65px;
+  left: 73px
+}
+.quran .options .news {
+  color: #555555;
+  display: none;
+  list-style: none;
+  width: 280px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 6px
+}
+.quran .options .news li {
+  position: relative;
+  margin-bottom: 10px
+}
+.quran .options .news .header {
+  color: #999;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 4px
+}
+.quran .options .news .header h4 {
+  font-size: 14px;
+  font-weight: bold
+}
+.quran .options .news .header a {
+  color: #999
+}
+.quran .options .news .footer {
+  color: #777;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top: 1px solid #DADADA;
+  padding-top: 8px;
+  text-align: left
+}
+.quran .options .news .footer a {
+  color: #999;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-right: 14px
+}
+.quran .options .news h3 {
+  color: #444;
+  font-size: 16px;
+  font-weight: bold
+}
+.surah-content ul {
+  margin-top: 10px
+}
+.surah-content ul a {
+  display: block;
+  width: 160px;
+  line-height: 30px;
+  padding-left: 50px;
+  float: left;
+  white-space: nowrap
+}
+.donation-page {
+  color: #555
+}
+.donation-page .donation-box {
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: bold
+}
+.donation-page .as-anonymous {
+  color: #777;
+  font-weight: normal;
+  margin-top: 6px;
+  margin-left: 3px
+}
+.donation-page ul {
+  margin-top: 10px
+}
+.donation-page ul span {
+  display: block;
+  width: 160px;
+  line-height: 30px;
+  padding-left: 50px;
+  float: left;
+  white-space: nowrap
+}
+.player {
+  width: 380px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 6px 6px 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px
+}
+.player .options {
+  width: 320px;
+  display: inline-block;
+  background-color: #ebebeb;
+  padding: 2px 2px 2px 30px;
+  margin: 4px 4px 4px -30px;
+  border-radius: 6px
+}
+.player a, .player a:visited, .player a:link, .player a:hover {
+  text-decoration: none;
+  color: #535353
+}
+.player a:hover {
+  color: #b99c45
+}
+.player .duration {
+  color: #555555;
+  font-size: 12px
+}
+.player .play {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background: url("../img/jplayer/playbg.png") no-repeat;
+  z-index: 10;
+  position: relative
+}
+.player .play i {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 16px
+}
+.closeplayer {
+  background-image: url("../img/jplayer/close.png");
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -4px;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  z-index: 1
+}
+#topNav ul #repeat .repeatOptions li {
+  display: inline;
+  padding: 0px;
+  margin-left: 0px
+}
+#topNav ul #recitor .recitorList {
+  margin-left: 20px;
+  margin-top: 17px
+}
+#topNav ul #volume ul {
+  margin-left: 20px;
+  margin-top: 15px
+}
+#topNav ul #repeat .repeatOptions {
+  margin-left: 10px;
+  margin-top: 15px
+}
+#topNav #recitor ul li {
+  margin-left: 5px
+}
+#topNav #prevAyah a {
+  margin-left: 20px
+}
+#topNav #nextAyah a {
+  margin-left: 25px
+}
+#topNav #volume ul a {
+  margin-left: 3px
+}
+#topNav #progressBar a {
+  margin-top: 0px
+}
+#topNav ul .dropOption .dropLink {
+  height: 36px;
+  line-height: 36px;
+  margin: -6px 3px;
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  cursor: pointer
+}
+.dropLink.active, .dropLink:hover, .dropLink:focus, .dropLink:visited, .dropLink:active {
+  text-decoration: none
+}
+#topNav ul .dropOption .dropLink span, #topNav ul .dropOption .dropLink .icon {
+  margin-top: 6px
+}
+#topNav .recitor {
+  margin-top: -2px
+}
+#topNav #prevPage a, #topNav #nextPage a {
+  margin: 0
+}
+#playerNav {
+  background-image: url("../img/jplayer/foreground.png");
+  height: 63px;
+  width: 450px
+}
+#playerNavBox {
+  height: 63px;
+  width: 450px;
+  position: absolute;
+  background-image: url("../img/jplayer/background.png")
+}
+.recitorList {
+  display: block;
+  width: 420px
+}
+.recitorList li {
+  float: left
+}
+.recitorList a {
+  cursor: pointer;
+  display: block;
+  min-width: 120px;
+  -width: 120px;
+  height: 20px;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding-left: 4px;
+  padding-right: 4px;
+  overflow: hidden
+}
+.recitorList a:hover {
+  background-color: #F2F2F2;
+  text-decoration: none
+}
+.recitorList a:focus {
+  text-decoration: none
+}
+.recitorList .txt {
+  color: #333
+}
+.recitorList a.active, .recitorList a.active:hover, .recitorList a.active:focus, .recitorList a.active:visited, .recitorList a.active:active {
+  background-color: #F2F2F2;
+  font-weight: bold
+}
+.bandwidthList a {
+  cursor: pointer;
+  display: block;
+  -width: 60px;
+  height: 20px;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding-left: 4px;
+  padding-right: 4px;
+  overflow: hidden
+}
+.bandwidthList a:hover {
+  background-color: #F2F2F2;
+  text-decoration: none
+}
+.bandwidthList a:focus {
+  text-decoration: none
+}
+.bandwidthList .txt {
+  color: #333
+}
+.bandwidthList a.active, .bandwidthList a.active:hover, .bandwidthList a.active:focus, .recitorList a.active:visited, .bandwidthList a.active:active {
+  background-color: #F2F2F2;
+  font-weight: bold
+}
+.repeatOptions li {
+  height: 30px;
+  white-space: nowrap
+}
+.repeatOptions label {
+  display: inline-block;
+  width: 70px
+}
+.volumeBar {
+  margin: .5em
+}
+.volumePercent {
+  height: 20px
+}
+.progressBar {
+  width: 100px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1;
+  margin-top: 3px
+}
+.buffer {
+  height: 100%;
+  position: absolute;
+  *position: relative;
+  background-color: #ddd;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1
+}
+.audioLoading {
+  background: url("../img/tool/progress-bar-loader.gif")
+}
+.ui-widget-content {
+  background-color: #eeeeee;
+  color: #222222
+}
+.ui-widget-content a {
+  color: #222222
+}
+.ui-widget-header {
+  background-color: #5b6d6f;
+  color: #222222
+}
+.ui-widget-header a {
+  color: #222222
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-color: #e6e6e6;
+  font-weight: normal;
+  color: #555555
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #555555;
+  text-decoration: none
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+  background-color: #dadada;
+  font-weight: normal;
+  color: #212121
+}
+.ui-state-hover a, .ui-state-hover a:hover {
+  color: #212121;
+  text-decoration: none
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  background-color: #ffffff;
+  font-weight: normal;
+  color: #212121
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #212121;
+  text-decoration: none
+}
+.ui-widget:active {
+  outline: none
+}
+.ui-state-disabled {
+  cursor: default !important
+}
+.ui-slider {
+  position: relative;
+  text-align: left;
+  cursor: pointer;
+  border-color: #666666;
+  border-width: 1px;
+  border-style: solid
+}
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 0;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: pointer;
+  margin-left: 0px
+}
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 0;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0
+}
+.ui-slider .ui-slider-handle {
+  width: 19px;
+  height: 19px;
+  background-position: -305px -126px;
+  background-color: transparent
+}
+.ui-slider .ui-state-hover {
+  background-position: -324px -126px
+}
+.ui-slider .ui-state-active {
+  background-position: -342px -126px
+}
+.ui-slider-horizontal {
+  height: 12px
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.4em;
+  margin-left: -0.3em !important;
+  *top: -4px
+}
+.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%
+}
+.ui-slider-horizontal .ui-slider-range-min {
+  left: 0
+}
+.ui-slider-horizontal .ui-slider-range-max {
+  right: 0
+}
+.ui-slider-vertical {
+  width: 12px;
+  height: 100px
+}
+.ui-slider-vertical .ui-slider-handle {
+  left: -0.5em;
+  *margin-left: -0.3em !important;
+  margin-bottom: -0.6em !important;
+  *left: -0.8em
+}
+.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 100%
+}
+.ui-slider-vertical .ui-slider-range-min {
+  bottom: 0
+}
+.ui-slider-vertical .ui-slider-range-max {
+  top: 0
+}
+*/
+.player-plain a, .player-plain a:visited, .player-plain a:link, .player-plain a:hover {
+  margin-left: 1.2em;
+  text-decoration: none;
+  color: #535353
+}
+.player-plain a.text-muted, .player-plain a:visited.text-muted, .player-plain a:link.text-muted, .player-plain a:hover.text-muted {
+  color: #999999
+}
+.player-plain a:hover, .player-plain a:hover.text-muted {
+  color: #b99c45
+}
+.player-plain .duration {
+  color: #555555
+}
+body {
+  background: #d5dfd4 url("../img/bg.png") repeat-x
+}
+.gq {
+  background: url("../img/bg-icon.png") no-repeat top center
+}
+.gq .header {
+  text-align: center
+}
+.gq .header .site-menu a, .gq .header .site-menu a:link, .gq .header .site-menu a:visited, .gq .header .site-menu a:hover {
+  color: #aebcb5;
+  text-decoration: none;
+  font-size: 12px;
+  padding-right: 14px;
+  padding-left: 14px
+}
+.gq .header .site-menu a:hover {
+  color: #e8d582
+}
+.gq .header h1 {
+  margin: 0 auto;
+  width: 150px;
+  height: 188px;
+  background: url("../img/logo.png") no-repeat;
+  text-indent: -7000px
+}
+.gq .footer {
+  text-align: center
+}
+.gq .footer .socialnetwork {
+  margin: 0 0 0 25px
+}
+.gq .footer .f {
+  height: 30px;
+  width: 33px;
+  display: inline-block;
+  background: url("../img/icons/f2.png")
+}
+.gq .footer .f:hover {
+  background-image: url("../img/icons/f1.png")
+}
+.gq .footer .t {
+  background: url("../img/icons/t2.png");
+  height: 30px;
+  width: 33px;
+  display: inline-block
+}
+.gq .footer .t:hover {
+  background-image: url("../img/icons/t1.png")
+}
+.gq .footer .g {
+  background: url("../img/icons/g2.png");
+  height: 30px;
+  width: 33px;
+  display: inline-block
+}
+.gq .footer .g:hover {
+  background-image: url("../img/icons/g1.png")
+}
+.gq .footer .copyright {
+  display: block;
+  color: #92948D
+}
+.no-js-message {
+  width: 400px;
+  height: 470px;
+  margin: 200px auto 0px auto;
+  padding: 20px
+}
+.no-js-message .icon {
+  width: 130px;
+  height: 200px;
+  margin: 0 auto 10px auto;
+  color: #B60C0C;
+  font-size: 150px
+}
+.no-js-message p {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  border: 5px solid #eeeeee
+}
+.no_js .loadingSite {
+  display: none
+}
+.loadingSite {
+  display: block;
+  width: 400px;
+  height: 470px;
+  margin: 200px auto 0px auto;
+  padding: 20px
+}
+.loadingSite .icon {
+  width: 130px;
+  height: 200px;
+  margin: 0 auto 10px auto;
+  color: #fff;
+  font-size: 150px
+}
+.loadingSite p {
+  color: #fff
+}
+.loadingPage {
+  display: block;
+  width: 521px;
+  height: 470px;
+  margin: 350px 200px 0
+}
+.loadingPage .icon {
+  color: #ddd;
+  font-size: 150px
+}
+.loadingPage p {
+  color: #fff
+}
+.plain-quran {
+}
+.plain-quran .row {
+  margin-right: 0
+}
+.plain-quran hr.minor {
+  border-top: 1px dashed #dff0d8
+}
+.plain-quran .loading {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  text-align: center
+}
+.plain-quran header.fixed {
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+  background-color: #fff;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s
+}
+.plain-quran header .logo {
+  display: block;
+  width: 158px;
+  height: 188px;
+  background-image: url("../quran/logo-alternate.png");
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0
+}
+.plain-quran header .title {
+  margin-top: 2em
+}
+.plain-quran header .title a, .plain-quran header .title a:active, .plain-quran header .title a:hover, .plain-quran header .title a:focus, .plain-quran header .title a:link {
+  color: #555555
+}
+.plain-quran header .icons {
+  margin-top: 5em
+}
+.plain-quran header.mini .logo {
+  width: 318px;
+  height: 70px;
+  background-image: url("../quran/logo-mini-alternate.png")
+}
+.plain-quran header.mini .title {
+  margin-top: .5em;
+  margin-bottom: .5em
+}
+.plain-quran header.mini .icons {
+  margin-top: .8em;
+  margin-bottom: .2em
+}
+.plain-quran a.gear {
+  color: #b3b3b3
+}
+.plain-quran a.gear:hover, .plain-quran a.gear:focus, .plain-quran a.gear:active {
+  color: #999999
+}
+.plain-quran .surah-list a {
+  margin: .5em 1.5em .5em;
+  width: 190px;
+  display: block
+}
+.plain-quran .surah-list a:hover {
+  background-color: #f9f9f9
+}
+.plain-quran .surah-list .surah-number {
+  color: #cccccc;
+  float: right;
+  font-weight: bolder
+}
+.plain-quran .surah-list .surah-name {
+  font-style: normal
+}
+.plain-quran .surah-list .surah-meaning {
+  display: block;
+  color: #a8a8a8
+}
+.plain-quran .quran-content {
+  border-left: 88px solid #333333;
+  margin-top: -20px;
+  margin-bottom: -40px;
+  padding-bottom: 20px
+}
+.plain-quran .ayah-group a.number {
+  background-color: #333333
+}
+.plain-quran .number {
+  position: absolute;
+  left: -77px;
+  font-size: 13px;
+  display: inline;
+  padding: .2em 0em .3em 1em;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline
+}
+.plain-quran .number:hover {
+  text-decoration: none
+}
+.plain-quran .number .icon-ayah-bracket-left, .plain-quran .number .icon-ayah-bracket-right {
+  margin: 0 5px -7px 5px;
+  display: inline-block;
+  width: 11px;
+  height: 23px;
+  background-repeat: no-repeat
+}
+.plain-quran .number .icon-ayah-bracket-left {
+  background-image: url("../quran/bracket-left.png")
+}
+.plain-quran .number .icon-ayah-bracket-right {
+  background-image: url("../quran/bracket-right.png")
+}
+.plain-quran .share {
+  position: absolute;
+  left: -45px;
+  margin-top: 43px;
+  display: none
+}
+.plain-quran .ayahs .quran-text {
+  font-size: 52px;
+  line-height: 75px
+}
+.plain-quran .ayah-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -77px
+}
+.plain-quran .ayah-group .ayah {
+  margin-left: 77px
+}
+.plain-quran .ayah-group hr {
+  border-top: 1px solid #bfbfbf;
+  margin-left: 75px
+}
+.plain-quran .ayah-group hr.minor {
+  border-top: 1px dashed #dff0d8
+}
+.plain-quran .ayah-group.active {
+  border-bottom-color: #d5c48f
+}
+.plain-quran .ayah-group.active .quran-text, .plain-quran .ayah-group.active .ayah {
+  color: #9f863b
+}
+.plain-quran .ayah-group.active .number {
+  width: 63px;
+  height: 28px;
+  background-color: #000
+}
+.plain-quran .ayah-group.active .label {
+  background-color: #b99c45
+}
+.plain-quran .ayah-group:hover .share {
+  display: block
+}
+.plain-quran .ayah-group .by {
+  width: auto;
+  font-style: italic;
+  color: #999999
+}
+.plain-quran .content-end {
+  text-align: center;
+  border-bottom: #c2c2c2 1px solid;
+  color: #999999
+}
+.plain-quran .content-end span {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-bottom: -11px
+}
+.plain-quran .setting-tab-container {
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: -20px;
+  margin-left: -20px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97)
+}
+.plain-quran .setting-tab-container .setting-tab-menu {
+  width: 30%;
+  float: left;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group {
+  margin-bottom: 0
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a {
+  margin-bottom: 0
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a .glyphicon, .plain-quran .setting-tab-container .setting-tab-menu .list-group > a .fa {
+  color: #b99c45
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a.active, .plain-quran .setting-tab-container .setting-tab-menu .list-group > a.active .glyphicon, .plain-quran .setting-tab-container .setting-tab-menu .list-group > a.active .fa {
+  background-color: #b99c45;
+  background-image: #b99c45;
+  color: #ffffff
+}
+.plain-quran .setting-tab-container .setting-tab-menu .list-group > a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #b99c45
+}
+.plain-quran .setting-tab-container .list-menu li {
+  padding-top: 20px
+}
+.plain-quran .setting-tab-container .list-menu li a {
+  display: block;
+  width: 170px;
+  padding: 4px 4px 4px 8px;
+  border-radius: 4px
+}
+.plain-quran .setting-tab-container .list-menu li i {
+  padding-right: 10px
+}
+.plain-quran .setting-tab-container .list-menu li .selected {
+  background-color: #f1ebd9
+}
+.plain-quran .setting-tab-container .setting-tab {
+  width: 70%
+}
+.plain-quran .setting-tab-container {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-top: 10px
+}
+.plain-quran .setting-tab .setting-tab-content:not(.active) {
+  display: none
+}
+@media (max-width:767px) {
+  .plain-quran .title small {
+    display: none
+  }
+  .plain-quran .surah-list li {
+    display: block
+  }
+  .plain-quran .surah-list a {
+    margin: .2em;
+    margin-bottom: 1em;
+    width: 100%
+  }
+  .plain-quran .ayahs .quran-text {
+    font-size: 35px;
+    line-height: 50px
+  }
+  .plain-quran .ayahs .number {
+  }
+}
+@media print {
+  .plain-quran h1.title {
+    margin-top: 0
+  }
+  .plain-quran .quran-content {
+    border-left: none
+  }
+  .plain-quran .ayah-group {
+    margin-left: 0px
+  }
+  .plain-quran .ayah-group .ayah, .plain-quran .ayah-group hr {
+    margin-left: 0px
+  }
+  .plain-quran .number {
+    position: relative;
+    left: 0;
+    border: 1px solid #000;
+    border-radius: .25em
+  }
+  .plain-quran .loading, .plain-quran .content-end {
+    display: none
+  }
+}
+a i.icon-play.icon-3x {
+  color: #b99c45
+}
+.icon-forward, .icon-pause, .icon-backward {
+  color: #535353
+}
+.icon-forward:hover, .icon-pause:hover, .icon-backward:hover {
+  color: #b99c45
+}
+a i.icon-play.icon-3x:hover {
+  color: #816d30
+}
+div a  i.icon-forward, i.icon-pause, i.icon-backward {
+  margin-left: 1.2em
+}
+div i.icon-gear:not(.icon-3x) {
+  margin-left: 1.2em
+}
+a i.icon-share-alt.icon-2x {
+  color: #b99c45
+}
+a i.icon-share-alt.icon-2x:hover {
+  color: #816d30
+}
+i.icon-ayah-bracket-right {
+  color: #b99c45
+}
+i.icon-ayah-bracket-right:hover {
+  color: #816d30
+}
+a span {
+  color: #b99c45
+}
+a span:hover {
+  color: #816d30
+}
+p a {
+  color: #b99c45;
+  text-decoration: none
+}
+p a:hover, p a:focus {
+  color: #816d30;
+  text-decoration: underline
+}
+.modal-dialog {
+  background: transparent
+}
+div.middle > a {
+  background: url(button-dark-big.png) no-repeat;
+  padding: 13px 85px 37px 26px;
+  margin-top: 8px;
+  margin-right: -9px;
+  margin-left: 1px;
+  margin-bottom: -13px;
+  display: inline-flex;
+  text-align: center;
+  color: #b99c45
+}
+a.btn {
+  color: #555555;
+  font-family: Lucida Bright, Georgia, serif;
+  font-weight: bold;
+  font-size: 150%
+}
+a.btn:hover {
+  color: #b99c45
+}
+div.middle > a:hover {
+  color: #816d30;
+  text-decoration: none
+}
+.progress-bar {
+  background: #b99c45
+}
+div#juz {
+  display: none
+}
+div#page {
+  display: none
+}
+div#surah {
+  display: block
+}
+div.Al-Faatiha {
+  display: none;
+  text-align: right
+}
+
+div.juz-2 {
+  display: none
+}
+div#pause {
+  display: none
+}
+div.page-16 {
+  display: none
+}
+.hide_for_now {
+  display: none
+}
+.ui-dialog {
+  display: none
+}
+div.ui-widget-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+  position: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 38px;
+  left: 164px;
+  right: 164px;
+  top: 136px;
+  z-index: 101
+}
+div.setting-tab-content {
+  background-color: #ffffff;
+  padding-left: 3px;
+  padding-top: 23px;
+  margin: 6px
+}
+div.ui-dialog {
+  display: none;
+} 
+
+div.ui-dialog-titlebar {
+  display: none;
+}
+.plain-quran .setting-tab-container {
+  
+  background-color: #ffffff;
+  padding-left: 20px;
+  height: 91px;
+  margin-left: -16px;
+  margin-bottom: 3px;
+  margin-top: -15px;
+  border: 0px;
+  margin-right: 42px;
+
+} 
+.list-group {
+  padding-left: 0px;
+  padding-bottom: -14px;
+  padding-top: 0px;
+  height: -1px;
+}
+.modal-close {
+  float: right;
+} 
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #b99c45;
+  border-color: #b99c45;
+} 
+ul.list-menu .col-xs-6.col-sm-6.col-md-6 {
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 9px;
+} 
+ul.list-menu a.no-underline {
+  color: #777;
+}
+
+
+
