@@ -1608,9 +1608,7 @@ a i.icon-play.icon-3x {
 a i.icon-play.icon-3x:hover {
   color: #816d30
 }
-div a  i.icon-forward, i.icon-pause, i.icon-backward {
-  margin-left: 1.2em
-}
+
 div i.icon-gear:not(.icon-3x) {
   margin-left: 1.2em
 }
@@ -1688,6 +1686,9 @@ div.juz-2 {
   display: none
 }
 div#pause {
+  display: none
+} 
+div#pause3 {
   display: none
 }
 div.page-16 {

@@ -99,8 +99,20 @@ $(document).ready(function() {
 	$("div#play").click(function() {
 		if ($("div#play > button > span").hasClass('glyphicon-pause')) {
 			$("div#play > button > span").switchClass("glyphicon-pause", "glyphicon-play", 4000, "easeInOutQuad");
+			$("div#play3 > a > i").switchClass("icon-pause", "icon-play", 40, "easeInOutQuad");
 		} else {
 			$("div#play > button > span").switchClass("glyphicon-play", "glyphicon-pause", 4000, "easeInOutQuad");
+			$("div#play3 > a > i").switchClass("icon-play", "icon-pause", 40, "easeInOutQuad");
+		}
+	}); 
+	$("div#play3").click(function() {
+		if ($("div#play3 > a > i").hasClass('icon-pause')) {
+			$("div#play3 > a > i").switchClass("icon-pause", "icon-play", 40, "easeInOutQuad");
+			$("div#play > button > span").switchClass("glyphicon-pause", "glyphicon-play", 4000, "easeInOutQuad");
+		} else {
+			$("div#play3 > a > i").switchClass("icon-play", "icon-pause", 40, "easeInOutQuad");
+			$("div#play > button > span").switchClass("glyphicon-play", "glyphicon-pause", 4000, "easeInOutQuad");
+			
 		}
 	});
 	
