@@ -1766,5 +1766,20 @@ ul.list-menu a.no-underline {
   color: #777;
 }
 
+a.text-muted.no-underline.gear:focus {
+  outline: 0 ;
+} 
+a.no-underline.gear:focus {
+  outline: 0 ;
+}
+
+div#play.col-xs-4.col-sm-4.col-md-4:focus {
+  outline: 0 ;
+}
+
+.btn.btn-default:focus {
+  outline: 0 ;
+}
+
 
 
