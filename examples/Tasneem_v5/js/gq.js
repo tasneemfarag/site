@@ -123,7 +123,20 @@ $(document).ready(function() {
 		var index = $(this).index();
 		$("div.setting-tab>div.setting-tab-content").removeClass("active");
 		$("div.setting-tab>div.setting-tab-content").eq(index).addClass("active");
-	});
+	}); 
+
+	$("div > li > a > i").click(function() {
+		if ($(this).hasClass('icon-plus-sign')) {
+			$(this).switchClass("icon-plus-sign", "icon-minus-sign", 4000, "easeInOutQuad");
+			
+			
+		} else {
+			$(this).switchClass("icon-minus-sign", "icon-plus-sign", 4000, "easeInOutQuad");
+			
+		}
+	}); 
+
+	
 });
 /*
 (function(d, s, id) {
